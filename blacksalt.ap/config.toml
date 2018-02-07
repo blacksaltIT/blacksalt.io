@@ -1,0 +1,5 @@
+baseURL = "http:/blacksalt.io/"
+languageCode = "en-us"
+title = "Black Salt"
+theme= "forty"
+
