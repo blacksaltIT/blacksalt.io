@@ -1,0 +1,108 @@
+#fh5co-header .navbar-brand div {
+    background: url("/images/blacksalt_salt@0.5x.png") no-repeat;
+    background-position: top -47px left;
+    width: 40px;
+    height: 47px;
+    max-height: 47px;
+    overflow: hidden;
+    margin-top: -13px;
+    float: left;
+    margin-right: 4px;
+    background-size: cover;
+  }
+
+.fh5co-nav-toggle {
+    /* margin-top: -15px; */
+}
+
+@media
+    only screen and (max-width : 768px) {
+
+        #fh5co-header .navbar-brand div {
+            background-position: top 0px left;
+        }
+
+        #fh5co-header .navbar-brand {
+            color: black;
+            font-family: Montserrat;
+        }
+}
+
+
+#fh5co-header .navbar-brand {
+    font-family: Montserrat;
+}
+
+#fh5co-header.navbar-fixed-top .navbar-brand {
+    color: black;
+    font-family: Montserrat;
+  }
+
+#fh5co-header.navbar-fixed-top .logo {
+  background-position: top 0px left;
+}
+
+#blinking-cursor {
+    vertical-align: baseline;
+    font-size: 130%;
+    -webkit-animation: 1s blink step-end infinite;
+    -moz-animation: 1s blink step-end infinite;
+    -ms-animation: 1s blink step-end infinite;
+    -o-animation: 1s blink step-end infinite;
+    animation: 1s blink step-end infinite;
+  }
+  
+  @keyframes "blink" {
+    from, to {
+        opacity: 0;
+        filter: alpha(opacity=0); /* For IE8 and earlier */
+    }
+    50% {
+        opacity: 1;
+        filter: alpha(opacity=100); /* For IE8 and earlier */
+    }
+  }
+  
+  @-moz-keyframes blink {
+    from, to {
+        opacity: 0;
+        filter: alpha(opacity=0); /* For IE8 and earlier */
+    }
+    50% {
+        opacity: 1;
+        filter: alpha(opacity=100); /* For IE8 and earlier */
+    }
+  }
+  
+  @-webkit-keyframes "blink" {
+    from, to {
+        opacity: 0;
+        filter: alpha(opacity=0); /* For IE8 and earlier */
+    }
+    50% {
+        opacity: 1;
+        filter: alpha(opacity=100); /* For IE8 and earlier */
+    }
+  }
+  
+  @-ms-keyframes "blink" {
+    from, to {
+        opacity: 0;
+        filter: alpha(opacity=0); /* For IE8 and earlier */
+    }
+    50% {
+        opacity: 1;
+        filter: alpha(opacity=100); /* For IE8 and earlier */
+    }
+  }
+  
+  @-o-keyframes "blink" {
+    from, to {
+        opacity: 0;
+        filter: alpha(opacity=0); /* For IE8 and earlier */
+    }
+    50% {
+        opacity: 1;
+        filter: alpha(opacity=100); /* For IE8 and earlier */
+    }
+  }
