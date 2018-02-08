@@ -1,5 +1,48 @@
-baseURL = "http:/blacksalt.io/"
-languageCode = "en-us"
-title = "Black Salt"
-theme= "forty"
+title = "Osprey Example Site"
+baseURL = "http://papps.net"
+tags = ["portfolio", "web design", "blog"]
+languageCode = "en-US"
+config = "config.toml"
+theme = "osprey"
+canonifyURLS = true
+googleAnalytics = ""
+disqusShortname = "tomanistor"
+disableKinds = ["taxonomy", "taxonomyTerm"] # This theme does not currently use "tag" and "category" taxonomies
 
+[Params]
+    tagline = "Black Salt Site"
+    author = "Toma Nistor"
+    description = "Full-stack web developer and UI/UX enthusiast based in San Diego, CA."
+    logoBig = "/images/White_BS_text.png"
+    logoSmall = "/images/White_BS_text.png"
+    favicon = "favicon.ico"
+    opengraphImage = "/images/White_BS_logo.png"
+    twitter = "TomaNistor"
+    linkedin = "tomanistor"
+    github = "tomanistor"
+    email = ""
+    googleTagManger = ""
+    highlightJS = true
+    copyright = true
+    credit = true
+    customCSS = false
+    cacheBustCSS = false
+    cacheBustJS = false
+    ajaxFormspree = true
+
+[[menu.main]]
+    name = "About"
+    url  = "/#about"
+    weight = 1
+[[menu.main]]
+    name = "Work"
+    url  = "/#work"
+    weight = 2
+[[menu.main]]
+    name = "Blog"
+    url  = "/#blog"
+    weight = 3
+[[menu.main]]
+    name = "Contact"
+    url  = "/#contact"
+    weight = 4
