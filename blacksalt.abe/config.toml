@@ -1,6 +1,6 @@
 # Page settings
 baseurl = "localhost:1313"
-title = "The missing pinch of all software"
+title = "The missing pinch of software engineering"
 languageCode = "en-us"
 theme = "hugo-elate-theme"
 
@@ -134,7 +134,7 @@ theme = "hugo-elate-theme"
 
     [[params.testimonials.item]]
       quote = "&ldquo;Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean. Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.&rdquo;"
-      person = 'John Doe, Senior UI <a href="http://blacksalt.io/papp" target="_blank">fdfsd</a> <span class="subtext">Creative Director</span>'
+      person = 'Ákos Belákovics, Senior UI <a href="http://blacksalt.io/papp" target="_blank">fdfsd</a> <span class="subtext">Creative Director</span>'
       img = "person2.jpg"
       alt = "Person2"
 
@@ -176,42 +176,72 @@ theme = "hugo-elate-theme"
   [params.about]
     enable = true
     title = "About"
-    description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
+    description = "“Coming together is a beginning. Keeping together is progress. Working together is success.” -Henry Ford"
 
     [[params.about.item]]
       name = "Albert Papp"
-      position = "Customer Relationship"
+      position = "Co-founder & CEO & Customer Relationship"
       description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts"
-      img = "person1.jpg"
-      alt = "Person1"
+      img = "team/albert_papp.jpg"
+      alt = "Albert Papp"
       social = [
-        ["icon-twitter", "#"],
-        ["icon-facebook", "#"],
-        ["icon-linkedin", "#"]
+        ["icon-linkedin", "https://linkedin.com/in/albert-papp"],
+        ["icon-facebook", "https://facebook.com/albert.papp.75"]
       ]
 
     [[params.about.item]]
-      name = "Rob Smith"
-      position = "Web Developer"
-      description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts"
-      img = "person2.jpg"
-      alt = "Person2"
+      name = "Ákos Belákovics"
+      position = "Co-founder & CTO"
+      description = "I am passionate about building integrated software systems and in the theoretical and practical methods and tools of software technology which are fit to the industrial standards."
+      img = "team/akos_belakovics.jpg"
+      alt = "Ákos Belákovics"
       social = [
-        ["icon-twitter", "#"],
-        ["icon-facebook", "#"],
-        ["icon-github", "#"]
+        ["icon-linkedin", "https://linkedin.com/in/akos-belakovics"],
+        ["icon-github", "https://github.com/defned"],
+        ["icon-facebook", "https://facebook.com/akos.belakovics"],
+        ["icon-twitter", "https://twitter.com/AkosBelakovics"]
       ]
 
     [[params.about.item]]
-      name = "Larry Ben"
-      position = "Web Designer"
-      description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts"
-      img = "person3.jpg"
-      alt = "Person3"
+      name = "Gergely Jahn"
+      position = "Co-founder & Lead C++ Software Architect"
+      description = "An experienced Senior Software Engineer with strong skills in Object Oriented Design and Programming. In the past 10 years I’ve been working on mission critical and reporting systems."
+      img = "team/gergely_jahn.jpg"
+      alt = "Gergely Jahn"
       social = [
-        ["icon-twitter", "#"],
-        ["icon-facebook", "#"],
-        ["icon-dribbble", "#"]
+        ["icon-facebook", "https://facebook.com/dark.knight.750"]
+      ]      
+
+    [[params.about.item]]
+      name = "Péter Jahn"
+      position = "Co-founder & Lead JAVA Software Architect"
+      description = "A Lead Software Architect with almost 10 years of experience in developing and supporting mission critical and data management systems."
+      img = "team/peter_jahn.jpg"
+      alt = "Péter Jahn"
+      social = [
+        ["icon-linkedin", "https://linkedin.com/in/jahn-peter-balazs"],
+        ["icon-facebook", "https://facebook.com/jahn.peter.balazs"]
+      ]      
+
+    [[params.about.item]]
+      name = "Edmond Ciorba"
+      position = "Senior Software Engineer Consultant"
+      description = "Software developer, contributing in data handling applications such as reporting and master data systems."
+      img = "team/edmond_ciorba.jpg"
+      alt = "Edmond Ciorba"
+      social = [
+        ["icon-linkedin", "https://linkedin.com/in/edmond-ciorba"],
+        ["icon-facebook", "https://facebook.com/ciorba.edmond"]
+      ]      
+
+    [[params.about.item]]
+      name = "János Roden"
+      position = "Senior Software Engineer Consultant"
+      description = "More than 8 years of senior software engineering experience, with strong analytical skills and a broad range of computer expertise."
+      img = "team/janos_roden.jpg"
+      alt = "János Roden"
+      social = [
+        ["icon-facebook", "https://facebook.com/janos.roden"]
       ]      
 
 
@@ -225,7 +255,7 @@ theme = "hugo-elate-theme"
       description = "Finished projects"
       icon = "icon-briefcase"
       from = 0
-      to = 89
+      to = 1
       interval = 50
       speed = 5000
 
@@ -233,7 +263,7 @@ theme = "hugo-elate-theme"
       description = "Lines of code"
       icon = "icon-code"
       from = 0
-      to = 2343409
+      to = 343409
       interval = 50
       speed = 5000
 
@@ -249,7 +279,7 @@ theme = "hugo-elate-theme"
       description = "Happy clients"
       icon = "icon-people"
       from = 0
-      to = 52
+      to = 1
       interval = 50
       speed = 5000
 
@@ -259,7 +289,7 @@ theme = "hugo-elate-theme"
     map = true
     form = true
     title = "Get in touch"
-    description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
+    # description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
     
     # Available icons: http://simplelineicons.com/
     details = [
@@ -278,9 +308,8 @@ theme = "hugo-elate-theme"
   # Footer section
   [params.footer]
     enable = true
-    copyright = '&copy; Elate Free HTML5. All Rights Reserved. <br>Created by <a href="http://freehtml5.co/" target="_blank">FREEHTML5.co</a> Images: <a href="http://pexels.com/" target="_blank">Pexels</a>, <a href="http://plmd.me/" target="_blank">plmd.me</a> <br>Hugo port by: <a href="https://github.com/saey55" target="_blank">saey55</a>'
+    copyright = '&copy; Black Salt Kft. All Rights Reserved. <br>Created by <a href="#">BLACKSALT.io</a>'
     links = [
-        ["icon-twitter", "#twitter"],
-        ["icon-facebook", "#facebook"],
-        ["icon-youtube", "#youtube"]
+        ["icon-twitter", "https://twitter.com/BlackSaltIT"],
+        ["icon-facebook", "https://facebook.com/blacksaltit"]
       ]
