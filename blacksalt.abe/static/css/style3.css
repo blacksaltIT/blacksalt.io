@@ -7,15 +7,15 @@
 }
 
 @font-face {
-  font-family: 'Montserrat';
-  src: url("../fonts/Montserrat/Montserrat-Book.otf");
+  font-family: 'Gotham';
+  src: url("../fonts/Gotham/Gotham-Book.otf");
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
-  font-family: 'Montserrat-Bold';
-  src: url("../fonts/Montserrat/Montserrat-Bold.otf");
+  font-family: 'Gotham-Bold';
+  src: url("../fonts/Gotham/Gotham-Bold.otf");
   font-weight: normal;
   font-style: normal;
 }
@@ -31,7 +31,6 @@ body {
   font-size: 20px;
   line-height: 1.5;
   color: #777777;
-  color: #7f7f7f;
   background: #fff;
   height: 100%;
   position: relative;
@@ -228,9 +227,9 @@ h1, h2, h3, h4, h5, h6 {
     box-shadow: 0 0 9px 0 rgba(0, 0, 0, 0.1);
   }
 
-  #fh5co-header .navbar-brand {
+  /* #fh5co-header .navbar-brand {
     color: #999999 !important;
-  }
+  } */
   #fh5co-header #navbar li a {
     color: rgba(0, 0, 0, 0.5) !important;
     -webkit-transition: 0.3s;
@@ -327,17 +326,17 @@ h1, h2, h3, h4, h5, h6 {
   -ms-box-shadow: 0 0 9px 0 rgba(0, 0, 0, 0.1);
   box-shadow: 0 0 9px 0 rgba(0, 0, 0, 0.1);
   margin-top: 0px;
-  line-height: 3;
+  line-height: 1.5;
   top: 0px;
 }
 #fh5co-header.navbar-fixed-top .navbar-brand {
-  color: #999999;
+  color: black;
 }
 #fh5co-header.navbar-fixed-top #navbar li a {
   color: rgba(0, 0, 0, 0.5);
-  -webkit-transition: 0.3s;
-  -o-transition: 0.3s;
-  transition: 0.3s;
+  -webkit-transition: 0.1s;
+  -o-transition: 0.1s;
+  transition: 0.1s;
 }
 #fh5co-header.navbar-fixed-top #navbar li a:hover {
   color: #999999;
@@ -390,7 +389,7 @@ h1, h2, h3, h4, h5, h6 {
   background-attachment: fixed;
   position: relative;
   width: 100%;
-  background-color: #e70435;
+  background-color: #999999;
   color: #fff;
   overflow: hidden;
 }
@@ -403,7 +402,7 @@ h1, h2, h3, h4, h5, h6 {
   z-index: 2;
   opacity: .9;
   -webkit-backface-visibility: hidden;
-  background-color: #e00333;
+  background-color: #999999;
   /* IE9, iOS 3.2+ */
   background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIHZpZXdCb3g9IjAgMCAxIDEiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiPjxsaW5lYXJHcmFkaWVudCBpZD0idnNnZyIgZ3JhZGllbnRVbml0cz0idXNlclNwYWNlT25Vc2UiIHgxPSIwJSIgeTE9IjAlIiB4Mj0iMTAwJSIgeTI9IjEwMCUiPjxzdG9wIHN0b3AtY29sb3I9IiM3YjNmNzUiIHN0b3Atb3BhY2l0eT0iMSIgb2Zmc2V0PSIwIi8+PHN0b3Agc3RvcC1jb2xvcj0iI2MyNGQ2NyIgc3RvcC1vcGFjaXR5PSIxIiBvZmZzZXQ9IjEiLz48L2xpbmVhckdyYWRpZW50PjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxIiBoZWlnaHQ9IjEiIGZpbGw9InVybCgjdnNnZykiIC8+PC9zdmc+);
   background-image: -webkit-gradient(linear, 0% 0%, 20%, 20%, 100% 100%, color-stop(0, #000000), color-stop(0, #000000), color-stop(1, #999999));
@@ -454,11 +453,11 @@ h1, h2, h3, h4, h5, h6 {
 
 .slant {
   position: absolute;
-  transform: rotate(-1.7deg);
-  -ms-transform: rotate(-1.7deg);
-  -webkit-transform: rotate(-1.7deg);
-  -o-transform: rotate(-1.7deg);
-  -moz-transform: rotate(-1.7deg);
+  transform: rotate(-1.5deg);
+  -ms-transform: rotate(-1.5deg);
+  -webkit-transform: rotate(-1.5deg);
+  -o-transform: rotate(-1.5deg);
+  -moz-transform: rotate(-1.5deg);
   background-color: #fff;
   content: "";
   z-index: 3;
@@ -660,11 +659,11 @@ h1, h2, h3, h4, h5, h6 {
 }
 #fh5co-services:before, #fh5co-services:after {
   position: absolute;
-  transform: rotate(-1.7deg);
-  -ms-transform: rotate(-1.7deg);
-  -webkit-transform: rotate(-1.7deg);
-  -o-transform: rotate(-1.7deg);
-  -moz-transform: rotate(-1.7deg);
+  transform: rotate(-1.5deg);
+  -ms-transform: rotate(-1.5deg);
+  -webkit-transform: rotate(-1.5deg);
+  -o-transform: rotate(-1.5deg);
+  -moz-transform: rotate(-1.5deg);
   background-color: #fff;
   content: "";
   z-index: 3;
@@ -732,11 +731,11 @@ h1, h2, h3, h4, h5, h6 {
 }
 #fh5co-counters:before, #fh5co-counters:after {
   position: absolute;
-  transform: rotate(-1.7deg);
-  -ms-transform: rotate(-1.7deg);
-  -webkit-transform: rotate(-1.7deg);
-  -o-transform: rotate(-1.7deg);
-  -moz-transform: rotate(-1.7deg);
+  transform: rotate(-1.5deg);
+  -ms-transform: rotate(-1.5deg);
+  -webkit-transform: rotate(-1.5deg);
+  -o-transform: rotate(-1.5deg);
+  -moz-transform: rotate(-1.5deg);
   background-color: #fff;
   content: "";
   z-index: 3;
@@ -897,11 +896,11 @@ h1, h2, h3, h4, h5, h6 {
 }
 #fh5co-work:before, #fh5co-work:after {
   position: absolute;
-  transform: rotate(-1.7deg);
-  -ms-transform: rotate(-1.7deg);
-  -webkit-transform: rotate(-1.7deg);
-  -o-transform: rotate(-1.7deg);
-  -moz-transform: rotate(-1.7deg);
+  transform: rotate(-1.5deg);
+  -ms-transform: rotate(-1.5deg);
+  -webkit-transform: rotate(-1.5deg);
+  -o-transform: rotate(-1.5deg);
+  -moz-transform: rotate(-1.5deg);
   background-color: #fff;
   content: "";
   z-index: 3;

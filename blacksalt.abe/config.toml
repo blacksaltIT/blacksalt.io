@@ -1,6 +1,6 @@
 # Page settings
 baseurl = "localhost:1313"
-title = "Elate theme"
+title = "The missing pinch of all software"
 languageCode = "en-us"
 theme = "hugo-elate-theme"
 
@@ -9,9 +9,9 @@ theme = "hugo-elate-theme"
   custom_css = ["css/custom1.css", "css/custom2.css"]
 
   # Meta
-  author = ""
+  author = "Black Salt"
   description = ""
-  email = ""
+  email = "info@blacksalt.io"
   # Navigation
   [params.navigation]
     brand = "BLACKSALT"
@@ -32,7 +32,7 @@ theme = "hugo-elate-theme"
     #  weight = 10
 
     # postpended links
-    #[[menu.postpend]]
+    # [[menu.postpend]]
     #  url = "http://gohugo.io"
     #  name = "External link"
     #  weight = 10
