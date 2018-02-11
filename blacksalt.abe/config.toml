@@ -191,7 +191,7 @@ theme = "hugo-elate-theme"
 
     [[params.about.item]]
       name = "Ákos Belákovics"
-      position = "Co-founder & CTO"
+      position = "Co-founder & Senior Full Stack Software Engineer"
       description = "I am passionate about building integrated software systems and in the theoretical and practical methods and tools of software technology which are fit to the industrial standards."
       img = "team/akos_belakovics.jpg"
       alt = "Ákos Belákovics"
@@ -203,8 +203,19 @@ theme = "hugo-elate-theme"
       ]
 
     [[params.about.item]]
+      name = "Edmond Ciorba"
+      position = "Senior Full Stack Software Engineer Consultant"
+      description = "Software developer, contributing in data handling applications such as reporting and master data systems."
+      img = "team/edmond_ciorba.jpg"
+      alt = "Edmond Ciorba"
+      social = [
+        ["icon-linkedin", "https://linkedin.com/in/edmond-ciorba"],
+        ["icon-facebook", "https://facebook.com/ciorba.edmond"]
+      ]
+
+    [[params.about.item]]
       name = "Gergely Jahn"
-      position = "Co-founder & Lead C++ Software Architect"
+      position = "Co-founder & Senior Full Stack Software Engineer"
       description = "An experienced Senior Software Engineer with strong skills in Object Oriented Design and Programming. In the past 10 years I’ve been working on mission critical and reporting systems."
       img = "team/gergely_jahn.jpg"
       alt = "Gergely Jahn"
@@ -213,36 +224,25 @@ theme = "hugo-elate-theme"
       ]      
 
     [[params.about.item]]
-      name = "Péter Jahn"
-      position = "Co-founder & Lead JAVA Software Architect"
-      description = "A Lead Software Architect with almost 10 years of experience in developing and supporting mission critical and data management systems."
-      img = "team/peter_jahn.jpg"
-      alt = "Péter Jahn"
-      social = [
-        ["icon-linkedin", "https://linkedin.com/in/jahn-peter-balazs"],
-        ["icon-facebook", "https://facebook.com/jahn.peter.balazs"]
-      ]      
-
-    [[params.about.item]]
-      name = "Edmond Ciorba"
-      position = "Senior Software Engineer Consultant"
-      description = "Software developer, contributing in data handling applications such as reporting and master data systems."
-      img = "team/edmond_ciorba.jpg"
-      alt = "Edmond Ciorba"
-      social = [
-        ["icon-linkedin", "https://linkedin.com/in/edmond-ciorba"],
-        ["icon-facebook", "https://facebook.com/ciorba.edmond"]
-      ]      
-
-    [[params.about.item]]
       name = "János Roden"
-      position = "Senior Software Engineer Consultant"
+      position = "Senior Cloud Architect Consultant"
       description = "More than 8 years of senior software engineering experience, with strong analytical skills and a broad range of computer expertise."
       img = "team/janos_roden.jpg"
       alt = "János Roden"
       social = [
         ["icon-facebook", "https://facebook.com/janos.roden"]
-      ]      
+      ]
+
+    [[params.about.item]]
+      name = "Péter Jahn"
+      position = "Co-founder & Senior Full Stack Software Engineer"
+      description = "With almost 10 years of experience in developing and supporting mission critical and data management systems."
+      img = "team/peter_jahn.jpg"
+      alt = "Péter Jahn"
+      social = [
+        ["icon-linkedin", "https://linkedin.com/in/jahn-peter-balazs"],
+        ["icon-facebook", "https://facebook.com/jahn.peter.balazs"]
+      ]
 
 
   # Counters section
