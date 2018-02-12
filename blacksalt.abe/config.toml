@@ -128,15 +128,16 @@ theme = "hugo-elate-theme"
 
   # Testimonials section
   [params.testimonials]
-    enable = true
+    enable = false
     title = "Testimonials"
-    description = "Our company is ..."
+    description = ""
 
-    [[params.testimonials.item]]
-      quote = "&ldquo;I’m an IT professional who: loves technology, thinks outside-the-box, sees problems as learning opportunities.&rdquo;"
-      person = 'Albert Papp, CEO <a href="http://blacksalt.io/papp" target="_blank"></a> <span class="subtext">Creative Director</span>'
-      img = "person1.jpg"
-      alt = "Person1"
+   [[params.testimonials.item]]
+     quote = "&ldquo;Great things in business are never done by one person. They're done by a team of people.&rdquo; - Steve Jobs"
+     person = 'Albert Papp, CEO <a href="http://www.blacksalt.io/papp" target="_blank"></a> <span class="subtext">Creative Director</span>'
+     img = "person1.jpg"
+     alt = "Person1"
+
 
     [[params.testimonials.item]]
       quote = "&ldquo;Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean. Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.&rdquo;"
@@ -187,12 +188,14 @@ theme = "hugo-elate-theme"
     [[params.about.item]]
       name = "Albert Papp"
       position = "Co-founder & CEO & Customer Relationship"
-      description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts"
+      description = "Great things in business are never done by one person. They're done by a team of people."
       img = "team/albert_papp.jpg"
       alt = "Albert Papp"
       social = [
         ["icon-linkedin", "https://linkedin.com/in/albert-papp"],
-        ["icon-facebook", "https://facebook.com/albert.papp.75"]
+        ["icon-facebook", "https://facebook.com/albert.papp.75"],
+        ["icon-github",   "https://github.com/palbert75"],
+        ["icon-twitter",  "https://twitter.com/albert_m_papp"]
       ]
 
     [[params.about.item]]
