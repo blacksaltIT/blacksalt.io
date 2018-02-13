@@ -84,11 +84,11 @@ theme = "hugo-elate-theme"
     description = "Excellence. Innovation. Expertise."
     footertext = 'Feel free to contact us <a href="http://blacksalt.io/" target="_blank">blacksalt.io</a>'
 
-    [[params.work.row]]
-      img = "tech_stack.jpg"
-      alt = "Image3"
-      title = "Our technology stack"
-      subtitle = "Technologies which is worth mentioning"
+   # [[params.work.row]]
+   #   img = "tech_stack.jpg"
+   #   alt = "Image3"
+   #   title = "Our technology stack"
+   #   subtitle = "Technologies which is worth mentioning"
 
     [[params.work.row]]
       img = "work_1.jpg"
@@ -102,11 +102,11 @@ theme = "hugo-elate-theme"
       title = "Agile Project Management"
       subtitle = "Scrum, Jira"
 
-    [[params.work.row]]
-      img = "work_3.jpg"
-      alt = "Image3"
-      title = "Mission critical apps"
-      subtitle = "Over 10 years of experiment"
+   # [[params.work.row]]
+   #   img = "work_3.jpg"
+   #   alt = "Image3"
+   #   title = "Mission critical apps"
+   #   subtitle = "Over 10 years of experiment"
 
 #    [[params.work.row]]
 #      img = "work_4.jpg"
