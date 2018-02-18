@@ -3,6 +3,58 @@
     color: #fff;
 }
 
+#fh5co-header.navbar-fixed-top #navbar li.active a,
+#fh5co-header.navbar-fixed-top #navbar li a:hover {
+    color: #494949;
+}
+
+@media screen and (max-width: 768px) {
+    .dropdown-menu {
+        /* border-top: 0 !important; */
+        border-radius: 0;
+        border-right: 0 !important;
+        border-left: 0 !important;
+        border-bottom: 0 !important;
+        background-color: #fff;
+        margin: 0 0 0 0;
+    }
+}
+
+@media screen and (min-width: 768px) {
+.dropdown-menu {
+    background-clip: unset;
+    background-color: rgb(73, 73, 73);
+    border-top: 0 !important;
+    border-right: 0 !important;
+    border-left: 0 !important;
+    border-bottom: 0 !important;
+    min-width: 11.5rem;
+
+    border-radius: 0;
+    z-index: -1;
+    
+    -webkit-box-shadow: rgba(0,0,0,0.2) 0px 0px 9px 0px;
+     -khtml-box-shadow: rgba(0,0,0,0.2) 0px 0px 9px 0px;
+       -moz-box-shadow: rgba(0,0,0,0.2) 0px 0px 9px 0px;
+            box-shadow: rgba(0,0,0,0.2) 0px 0px 9px 0px;
+}
+.navbar-fixed-top .dropdown-menu {
+    background-color: #fff;
+    margin: 0.5rem 0 0;
+    min-width: 11.5rem;
+}
+
+.navbar-fixed-top .dropdown-menu:before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: -10px;
+    left: 0;
+    height: 10px;
+    width: 100%;
+    background-color: #fff;
+}
+}
 
 #fh5co-techs {
     position: relative;

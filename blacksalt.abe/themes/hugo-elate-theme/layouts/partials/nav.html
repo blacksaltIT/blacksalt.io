@@ -81,11 +81,11 @@
                         </a>
                         <ul class="dropdown-menu">
                             {{ range .Translations }}
-                            <li class="dropdown menu-item text-center">
+                            <li class="dropdown menu-item text-center nav-item">
                                 <span>
-                                    <a href="{{ .Permalink }}">
+                                    <a href="{{ .Permalink }}" class="nav-link">
                                         <div class="row">
-                                            <img src="images/blank.gif" class="flag flag-{{ .Lang }} mr-2 ml-4" alt="{{ .Lang }}" />{{ i18n (lower (default .Lang .Site.Language.LanguageName)) . }}
+                                            <img src="/images/blank.gif" class="flag flag-{{ .Lang }} mr-2 ml-4" style="margin-top: 1px;" alt="{{ .Lang }}" />{{ i18n (lower (default .Lang .Site.Language.LanguageName)) . }}
                                         </div>
                                     </a>
                                 </span>

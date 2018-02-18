@@ -14,7 +14,7 @@
 			{{ range $i, $a := .Site.Params.about.item }}
 				<div class="col-md-4 py-5">
 					<div class="fh5co-person text-center to-animate">
-						<figure><img src="images/{{ $a.img }}" alt="{{ $a.alt }}"></figure>
+						<figure><img src="/images/{{ $a.img }}" alt="{{ $a.alt }}"></figure>
 						<h3>{{ $a.name | markdownify }}</h3>
 						<span class="fh5co-position">{{ $a.position | markdownify }}</span>
 						<p>{{ $a.description | markdownify }}</p>
