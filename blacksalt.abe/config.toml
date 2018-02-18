@@ -1,313 +1,506 @@
 # Page settings
 baseurl = "localhost:1313"
-title = "The missing pinch of software engineering"
-languageCode = "en-us"
+# languageCode = "en-us"
 theme = "hugo-elate-theme"
+DefaultContentLanguage = "en"
+copyright = "Everything is mine"
+
 
 [params]
-  
-  custom_css = ["css/custom1.css", "css/custom2.css"]
-
+  custom_css = ["css/custom.css", "css/terminal.css", "css/flags.css"]
   # Meta
   author = "Black Salt"
   description = ""
   email = "info@blacksalt.io"
-  # Navigation
-  [params.navigation]
-    brand = "BLACKSALT"
-    home = "Home"
-    work = "Work"
-    testimonials = "Testimonials"
-    services = "Services"
-    about = "About"
-    contact = "Contact"
 
-    # You can add custom links before or after the default links
-    # Assign a weight to define the order
-    
-    # prepended links
-    #[[menu.prepend]]
-    #  url = "http://gohugo.io"
-    #  name = "Hugo"
-    #  weight = 10
+[languages.en]
+  languageName = "English"
+  languageCode = "en-us"
+  title = "The missing pinch of software engineering"
+  weight = 1
 
-    # postpended links
-    # [[menu.postpend]]
-    #  url = "http://gohugo.io"
-    #  name = "External link"
-    #  weight = 10
+# Navigation
+[languages.en.navigation]
+  brand = "BLACKSALT"
+  home = "Home"
+  techs = "Technologies"
+  work = "Work"
+  services = "Services"
+  about = "About"
+  contact = "Contact"
+# Hero section
+[languages.en.hero]
+  title = "The missing pinch of software engineering"
+  subtitle = "We are ready for our next journey"
+  keyword = [ "Write.", "Less.", "Code." ]
+
+# Intro section
+# Available icons: http://simplelineicons.com/
+[languages.en.intro]
+[[languages.en.intro.item]]
+  title = "Web & Mobile development"
+  icon = "icon-mobile"
+  color = "#b5a397"
+  img = "img_7.jpg"
+  url = "Service_Web"
+
+[[languages.en.intro.item]]
+  title = "Consulting"
+  url = "Service_Consulting"
+  icon = "icon-layers2"
+  color = "#6a5750"
+  img = "img_8.jpg"
+
+[[languages.en.intro.item]]
+  title = "Backend"
+  url = "Service_Backend"
+  icon = "icon-wrench"
+  color = "#30231d"
+  img = "img_10.jpg"
+
+[languages.en.techs]
+  enable = "True"
+  title="Technologies we use"
   
-  # Hero section
-  [params.hero]
-    title = "'Do something you love...'"
-    subtitle = '“Your work is going to fill a large part of your life, and the only way to be truly satisfied is to do what you believe is great work. And the only way to do great work is to love what you do.”  –Steve Jobs, Co-'
- 
-  # Intro section
-  # Available icons: http://simplelineicons.com/
-  [params.intro]
+[[languages.en.techs.tech]]
+  img = "techs/angular_nativescript.png"
+  description = "<p><b>Angular + Nativescript</b></p>The truly native mobile apps"
+  link="https://www.nativescript.org"
+[[languages.en.techs.tech]]
+  img = "techs/apollo.png"
+  description = "<p><b>Apollo</b></p>Ultra-flexible, community driven GraphQL client for React, JavaScript, and native platforms"
+  link="https://www.apollographql.com"
+[[languages.en.techs.tech]]
+  img = "techs/bootstrap.png"
+  description = "<p><b>Bootstrap</b></p>The world's most popular responsive and mobile-first front-end component library"
+  link="https://getbootstrap.com/"
+[[languages.en.techs.tech]]
+  img = "techs/azure.png"
+  description = "<p><b>Azure</b></p>Building, testing, deploying, and managing applications and services in the cloud"
+  link="https://azure.microsoft.com"
+[[languages.en.techs.tech]]
+  img = "techs/django_python.png"
+  description = "<p><b>Django + Python</b></p>High-level Python Web framework that encourages rapid development and clean, pragmatic design."
+  link="https://www.djangoproject.com"
+[[languages.en.techs.tech]]
+  img = "techs/docker.png"
+  description = "<p><b>Docker</b></p>Platform for developers and sysadmins to build, ship, and run distributed applications, whether on laptops, data center VMs, or the cloud"
+  link="https://www.docker.com"
+[[languages.en.techs.tech]]
+  img = "techs/elastic_logstash_kibana.png"
+  description = "<p><b>Elasticsearch + Logstash + Kibana</b></p>Effiective combination to store, find and display logs"
+  link="https://www.elastic.co"
+[[languages.en.techs.tech]]
+  img = "techs/firebase.png"
+  description = "<p><b>Firebase</b></p>Google's mobile platform that helps you quickly develop high-quality apps and grow your business."
+  link="https://firebase.google.com"
+[[languages.en.techs.tech]]
+  img = "techs/graphql.png"
+  description = "<p><b>GraphQL</b></p>New way to query your data. Write queries, not code"
+  link="http://graphql.org"
+[[languages.en.techs.tech]]
+  img = "techs/kubernetes.png"
+  description = "<p><b>Kubernetes</b></p>Production-Grade Container Orchestration which builds upon 15 years of experience of running production workloads at Google"
+  link="https://kubernetes.io"
+[[languages.en.techs.tech]]
+  img = "techs/rabbitmq.png"
+  description = "<p><b>RabbitMQ</b></p>The most widely deployed open source message broker"
+  link="https://www.rabbitmq.com"
+[[languages.en.techs.tech]]
+  img = "techs/spring.png"
+  description = "<p><b>Spring</b></p>Provides a comprehensive programming and configuration model for modern Java-based enterprise applications"
+  link="https://spring.io"
 
-  [[params.intro.item]]
-    title = "Plan"
-    description = '“The greater danger for most of us lies not in setting our aim too high and falling short, but in setting our aim too low and achieving our mark.” -Michelangelo, Artist'
-    url = "#"
-    button = "Get In Touch"
-    icon = "icon-bulb"
-    img = "img_7.jpg"
+# Services section
+[languages.en.services]
+  enable = true
+  title = "Services"
+  description = "We would like to share our experience with you"
 
-  [[params.intro.item]]
-    title = "Develop"
-    description = ' “Simplicity is the key to brilliance.” -Bruce Lee, Martial Arts Expert'
-    url = "#"
-    button = "Click Me"
-    icon = "icon-wrench"
-    img = "img_8.jpg"
+[[languages.en.services.item]]
+  title = "Web &amp; Mobile development"
+  name = "Service_Web"
+  description = "There are 6.8 billion people on the planet, 5.1 billion of whom own a cell phone. And today, an ever-growing percentage of these devices are smartphones. According to a recent Pew Research Center Study, the number of users accessing the Internet on their smartphones has more than doubled in the past 5 years, as has the number of users downloading and using mobile apps. We want to conquer this world as well."
+  icon = "icon-mobile"
+[[languages.en.services.item]]
+  title = "Consulting"
+  name = "Service_Consulting"
+  description = "We are ready to become your technological partner, develop software which exactly meets the requirements of your specific project."
+  icon = "icon-layers2"
+[[languages.en.services.item]]
+  title = "Backend"
+  name = "Service_Backend"
+  description = "Our solutions has been used for years in mission critical environments of airlines, airports and air traffic control. Optimized for quality assurance and operations."
+  icon = "icon-wrench"
 
-  [[params.intro.item]]
-    title = "Launch"
-    description = " “It’s not about money or connections. It’s the willingness to outwork and outlearn everyone when it comes to your business. And if it fails, you learn from what happened and do a better job next time.” -Mark Cuban, Entrepreneur and “Shark Tank” Judge"
-    url = "#"
-    button = "Why us?"
-    icon = "icon-rocket"
-    img = "img_10.jpg"
+# About section
+[languages.en.about]
+  enable = true
+  title = "About"
+  description = "“Coming together is a beginning. Keeping together is progress. Working together is success.” -Henry Ford"
 
-  [params.intro.video]
-    enable = true
-    title = "Watch the video"
-    icon = "icon-play2"
-    url = "https://vimeo.com/channels/staffpicks/93951774"
+[[languages.en.about.item]]
+  name = "Albert Papp"
+  position = "Co-founder & CEO & Customer Relationship"
+  description = "Great things in business are never done by one person. They're done by a team of people."
+  img = "team/albert_papp.jpg"
+  alt = "Albert Papp"
+  social = [
+    ["icon-linkedin", "https://linkedin.com/in/albert-papp"],
+    ["icon-facebook", "https://facebook.com/albert.papp.75"],
+    ["icon-github",   "https://github.com/palbert75"],
+    ["icon-twitter",  "https://twitter.com/albert_m_papp"]
+  ]
 
+[[languages.en.about.item]]
+  name = "Ákos Belákovics"
+  position = "Co-founder & Senior Full Stack Software Engineer"
+  description = "I am passionate about building integrated software systems and in the theoretical and practical methods and tools of software technology which are fit to the industrial standards."
+  img = "team/akos_belakovics.jpg"
+  alt = "Ákos Belákovics"
+  social = [
+    ["icon-linkedin", "https://linkedin.com/in/akos-belakovics"],
+    ["icon-github", "https://github.com/defned"],
+    ["icon-facebook", "https://facebook.com/akos.belakovics"],
+    ["icon-twitter", "https://twitter.com/AkosBelakovics"]
+  ]
 
-  # Work section
-  [params.work]
-    enable = true
-    title = "Work"
-    description = "Excellence. Innovation. Expertise."
-    footertext = 'Feel free to contact us <a href="http://blacksalt.io/" target="_blank">blacksalt.io</a>'
+[[languages.en.about.item]]
+  name = "Edmond Ciorba"
+  position = "Senior Full Stack Software Engineer Consultant"
+  description = "Software developer, contributing in data handling applications such as reporting and master data systems."
+  img = "team/edmond_ciorba.jpg"
+  alt = "Edmond Ciorba"
+  social = [
+    ["icon-linkedin", "https://linkedin.com/in/edmond-ciorba"],
+    ["icon-facebook", "https://facebook.com/ciorba.edmond"]
+  ]
 
-   # [[params.work.row]]
-   #   img = "tech_stack.jpg"
-   #   alt = "Image3"
-   #   title = "Our technology stack"
-   #   subtitle = "Technologies which is worth mentioning"
+[[languages.en.about.item]]
+  name = "Gergely Jahn"
+  position = "Co-founder & Senior Full Stack Software Engineer"
+  description = "An experienced Senior Software Engineer with strong skills in Object Oriented Design and Programming. In the past 10 years I’ve been working on mission critical and reporting systems."
+  img = "team/gergely_jahn.jpg"
+  alt = "Gergely Jahn"
+  social = [
+    ["icon-facebook", "https://facebook.com/dark.knight.750"]
+  ]      
 
-    [[params.work.row]]
-      img = "work_1.jpg"
-      alt = "Image2"
-      title = "Full Stack Web development"
-      subtitle = "Angular, Node.js, Python"
+[[languages.en.about.item]]
+  name = "János Roden"
+  position = "Senior Cloud Architect Consultant"
+  description = "More than 8 years of senior software engineering experience, with strong analytical skills and a broad range of computer expertise."
+  img = "team/janos_roden.jpg"
+  alt = "János Roden"
+  social = [
+    ["icon-facebook", "https://facebook.com/janos.roden"]
+  ]
 
-    [[params.work.row]]
-      img = "work_2.jpg"
-      alt = "Image2"
-      title = "Agile Project Management"
-      subtitle = "Scrum, Jira"
-
-   # [[params.work.row]]
-   #   img = "work_3.jpg"
-   #   alt = "Image3"
-   #   title = "Mission critical apps"
-   #   subtitle = "Over 10 years of experiment"
-
-#    [[params.work.row]]
-#      img = "work_4.jpg"
-#      alt = "Image4"
-#      title = "Project 4"
-#      subtitle = "Design"
-
- #   [[params.work.row]]
- #     img = "work_5.jpg"
- #     alt = "Image5"
- #     title = "Project 5"
- #     subtitle = "Design"
-
- #   [[params.work.row]]
- #     img = "work_6.jpg"
- #     alt = "Image6"
- #     title = "Project 6"
- #     subtitle = "Design"
-
-  # Testimonials section
-  [params.testimonials]
-    enable = false
-    title = "Testimonials"
-    description = ""
-
-   [[params.testimonials.item]]
-     quote = "&ldquo;Great things in business are never done by one person. They're done by a team of people.&rdquo; - Steve Jobs"
-     person = 'Albert Papp, CEO <a href="http://www.blacksalt.io/papp" target="_blank"></a> <span class="subtext">Creative Director</span>'
-     img = "person1.jpg"
-     alt = "Person1"
-
-
-    [[params.testimonials.item]]
-      quote = "&ldquo;Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean. Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.&rdquo;"
-      person = 'Ákos Belákovics, Senior UI <a href="http://blacksalt.io/papp" target="_blank">fdfsd</a> <span class="subtext">Creative Director</span>'
-      img = "person2.jpg"
-      alt = "Person2"
-
-    [[params.testimonials.item]]
-      quote = "&ldquo;Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. &rdquo;"
-      person = 'Chris Nash, Director <a href="http://freehtml5.co/" target="_blank">FREEHTML5.co</a> <span class="subtext">Creative Director</span>'
-      img = "person3.jpg"
-      alt = "Person3"
-    
+[[languages.en.about.item]]
+  name = "Péter Jahn"
+  position = "Co-founder & Senior Full Stack Software Engineer"
+  description = "With almost 10 years of experience in developing and supporting mission critical and data management systems."
+  img = "team/peter_jahn.jpg"
+  alt = "Péter Jahn"
+  social = [
+    ["icon-linkedin", "https://linkedin.com/in/jahn-peter-balazs"],
+    ["icon-facebook", "https://facebook.com/jahn.peter.balazs"]
+  ]
 
 
+# Counters section
+[languages.en.counters]
+  enable = true
+  title = "Stats"
+  # background = "full_image_1.jpg"
 
+[[languages.en.counters.item]]
+  description = "Delivered projects"
+  icon = "icon-briefcase"
+  from = 0
+  to = 43
+  interval = 50
+  speed = 5000
+
+[[languages.en.counters.item]]
+  description = "Lines of code"
+  icon = "icon-code"
+  from = 0
+  to = 1343409
+  interval = 50
+  speed = 5000
+
+[[languages.en.counters.item]]
+  description = "Cups of coffee"
+  icon = "icon-cup"
+  from = 0
+  to = 1302
+  interval = 50
+  speed = 5000
+
+# Contact section
+[languages.en.contact]
+  enable = true
+  map = true
+  form = true
+  title = "Get in touch"
+  details = [
+    ["icon-home", "2800 Tatabanya Fő tér 20.<br> Hungary"],
+    ["icon-phone", "(+36) 30 465-6789"],
+    ["icon-envelope", "info@blacksalt.io"],
+    ["icon-globe", '<a href="http://blacksalt.io" target="_blank">blacksalt.io</a>']
+  ]
+  name = "Name"
+  email = "Email"
+  phone = "Phone"
+  message = "Message"
+  button = "Send message"
+
+# Footer section
+[languages.en.footer]
+  enable = true
+  copyright = '&copy; Black Salt Kft. All Rights Reserved. <br>Created by <a href="#">BLACKSALT.io</a>'
+  links = [
+    ["icon-twitter", "https://twitter.com/BlackSaltIT"],
+    ["icon-facebook", "https://facebook.com/blacksaltit"]
+  ]
+
+
+[languages.de]
+  languageName = "Deutsch"
+  languageCode = "de-de"
+  title = "Die fehlende Prise Software-Engineering"
+  weight = 2
+
+# skip params key for front matter
+[languages.de.navigation]
+  brand = "BLACKSALT"
+  home  = "Hause"
+  techs = "Technologiew"
+  work = "Arbeit"
+  services = "Dienstleistungen"
+  about = "Über"
+  contact = "Kontakt"
+
+[languages.de.hero]
+  title = "Die fehlende Prise Software-Engineering"
+  subtitle = "Wir sind bereit für unsere nächste Reise"
+  keyword = [ "Schreib.", "Weniger.", "Code." ]
+
+[languages.de.intro]
+[[languages.de.intro.item]]
+  title = "Web- und Mobile-Entwicklung"
+  icon = "icon-mobile"
+  color = "#b5a397"
+  img = "img_7.jpg"
+  url = "Service_Web"
+
+[[languages.de.intro.item]]
+  title = "Beratung"
+  url = "Service_Consulting"
+  icon = "icon-layers2"
+  color = "#6a5750"
+  img = "img_8.jpg"
+
+[[languages.de.intro.item]]
+  title = "Backend"
+  url = "Service_Backend"
+  icon = "icon-wrench"
+  color = "#30231d"
+  img = "img_10.jpg"
+
+
+[languages.de.techs]
+  enable = "True"
+  title="Technologien, die wir verwenden"
+[[languages.de.techs.tech]]
+    img = "techs/angular_nativescript.png"
+    description = "<p><b>Angular + Nativescript</b></p>The truly native mobile apps"
+    link="https://www.nativescript.org"
+  [[languages.de.techs.tech]]
+    img = "techs/apollo.png"
+    description = "<p><b>Apollo</b></p>Ultra-flexible, community driven GraphQL client for React, JavaScript, and native platforms"
+    link="https://www.apollographql.com"
+  [[languages.de.techs.tech]]
+    img = "techs/bootstrap.png"
+    description = "<p><b>Bootstrap</b></p>The world's most popular responsive and mobile-first front-end component library"
+    link="https://getbootstrap.com/"
+  [[languages.de.techs.tech]]
+    img = "techs/azure.png"
+    description = "<p><b>Azure</b></p>Building, testing, deploying, and managing applications and services in the cloud"
+    link="https://azure.microsoft.com"
+  [[languages.de.techs.tech]]
+    img = "techs/django_python.png"
+    description = "<p><b>Django + Python</b></p>High-level Python Web framework that encourages rapid development and clean, pragmatic design."
+    link="https://www.djangoproject.com"
+  [[languages.de.techs.tech]]
+    img = "techs/docker.png"
+    description = "<p><b>Docker</b></p>Platform for developers and sysadmins to build, ship, and run distributed applications, whether on laptops, data center VMs, or the cloud"
+    link="https://www.docker.com"
+  [[languages.de.techs.tech]]
+    img = "techs/elastic_logstash_kibana.png"
+    description = "<p><b>Elasticsearch + Logstash + Kibana</b></p>Effiective combination to store, find and display logs"
+    link="https://www.elastic.co"
+  [[languages.de.techs.tech]]
+    img = "techs/firebase.png"
+    description = "<p><b>Firebase</b></p>Google's mobile platform that helps you quickly develop high-quality apps and grow your business."
+    link="https://firebase.google.com"
+  [[languages.de.techs.tech]]
+    img = "techs/graphql.png"
+    description = "<p><b>GraphQL</b></p>New way to query your data. Write queries, not code"
+    link="http://graphql.org"
+  [[languages.de.techs.tech]]
+    img = "techs/kubernetes.png"
+    description = "<p><b>Kubernetes</b></p>Production-Grade Container Orchestration which builds upon 15 years of experience of running production workloads at Google"
+    link="https://kubernetes.io"
+  [[languages.de.techs.tech]]
+    img = "techs/rabbitmq.png"
+    description = "<p><b>RabbitMQ</b></p>The most widely deployed open source message broker"
+    link="https://www.rabbitmq.com"
+  [[languages.de.techs.tech]]
+    img = "techs/spring.png"
+    description = "<p><b>Spring</b></p>Provides a comprehensive programming and configuration model for modern Java-based enterprise applications"
+    link="https://spring.io"
+  
   # Services section
-  [params.services]
+  [languages.de.services]
     enable = true
     title = "Services"
-    description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
+    description = "We would like to share our experience with you"
 
-    [[params.services.item]]
-      title = "Brand &amp; Strategy"
-      description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean"
-      icon = "icon-anchor"
-
-    [[params.services.item]]
-      title = "Web &amp; Interface"
-      description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean"
-      icon = "icon-layers2"
-    [[params.services.item]]
-      title = "Photo &amp; Video"
-      description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean"
-      icon = "icon-video2"
-
-      [[params.services.item]]
-      title = "CMS &amp; eCommerce"
-      description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean"      
-      icon = "icon-monitor"
+  [[languages.de.services.item]]
+    title = "Web &amp; Mobile development"
+    name = "Service_Web"
+    description = "There are 6.8 billion people on the planet, 5.1 billion of whom own a cell phone. And today, an ever-growing percentage of these devices are smartphones. According to a recent Pew Research Center Study, the number of users accessing the Internet on their smartphones has more than doubled in the past 5 years, as has the number of users downloading and using mobile apps. We want to conquer this world as well."
+    icon = "icon-mobile"
+  [[languages.de.services.item]]
+    title = "Consulting"
+    name = "Service_Consulting"
+    description = "We are ready to become your technological partner, develop software which exactly meets the requirements of your specific project."
+    icon = "icon-layers2"
+  [[languages.de.services.item]]
+    title = "Backend"
+    name = "Service_Backend"
+    description = "Our solutions has been used for years in mission critical environments of airlines, airports and air traffic control. Optimized for quality assurance and operations."
+    icon = "icon-wrench"
 
   # About section
-  [params.about]
+  [languages.de.about]
     enable = true
     title = "About"
     description = "“Coming together is a beginning. Keeping together is progress. Working together is success.” -Henry Ford"
 
-    [[params.about.item]]
-      name = "Albert Papp"
-      position = "Co-founder & CEO & Customer Relationship"
-      description = "Great things in business are never done by one person. They're done by a team of people."
-      img = "team/albert_papp.jpg"
-      alt = "Albert Papp"
-      social = [
-        ["icon-linkedin", "https://linkedin.com/in/albert-papp"],
-        ["icon-facebook", "https://facebook.com/albert.papp.75"],
-        ["icon-github",   "https://github.com/palbert75"],
-        ["icon-twitter",  "https://twitter.com/albert_m_papp"]
-      ]
+  [[languages.de.about.item]]
+    name = "Albert Papp"
+    position = "Co-founder & CEO & Customer Relationship"
+    description = "Great things in business are never done by one person. They're done by a team of people."
+    img = "team/albert_papp.jpg"
+    alt = "Albert Papp"
+    social = [
+      ["icon-linkedin", "https://linkedin.com/in/albert-papp"],
+      ["icon-facebook", "https://facebook.com/albert.papp.75"],
+      ["icon-github",   "https://github.com/palbert75"],
+      ["icon-twitter",  "https://twitter.com/albert_m_papp"]
+    ]
 
-    [[params.about.item]]
-      name = "Ákos Belákovics"
-      position = "Co-founder & Senior Full Stack Software Engineer"
-      description = "I am passionate about building integrated software systems and in the theoretical and practical methods and tools of software technology which are fit to the industrial standards."
-      img = "team/akos_belakovics.jpg"
-      alt = "Ákos Belákovics"
-      social = [
-        ["icon-linkedin", "https://linkedin.com/in/akos-belakovics"],
-        ["icon-github", "https://github.com/defned"],
-        ["icon-facebook", "https://facebook.com/akos.belakovics"],
-        ["icon-twitter", "https://twitter.com/AkosBelakovics"]
-      ]
+  [[languages.de.about.item]]
+    name = "Ákos Belákovics"
+    position = "Co-founder & Senior Full Stack Software Engineer"
+    description = "I am passionate about building integrated software systems and in the theoretical and practical methods and tools of software technology which are fit to the industrial standards."
+    img = "team/akos_belakovics.jpg"
+    alt = "Ákos Belákovics"
+    social = [
+      ["icon-linkedin", "https://linkedin.com/in/akos-belakovics"],
+      ["icon-github", "https://github.com/defned"],
+      ["icon-facebook", "https://facebook.com/akos.belakovics"],
+      ["icon-twitter", "https://twitter.com/AkosBelakovics"]
+    ]
 
-    [[params.about.item]]
-      name = "Edmond Ciorba"
-      position = "Senior Full Stack Software Engineer Consultant"
-      description = "Software developer, contributing in data handling applications such as reporting and master data systems."
-      img = "team/edmond_ciorba.jpg"
-      alt = "Edmond Ciorba"
-      social = [
-        ["icon-linkedin", "https://linkedin.com/in/edmond-ciorba"],
-        ["icon-facebook", "https://facebook.com/ciorba.edmond"]
-      ]
+  [[languages.de.about.item]]
+    name = "Edmond Ciorba"
+    position = "Senior Full Stack Software Engineer Consultant"
+    description = "Software developer, contributing in data handling applications such as reporting and master data systems."
+    img = "team/edmond_ciorba.jpg"
+    alt = "Edmond Ciorba"
+    social = [
+      ["icon-linkedin", "https://linkedin.com/in/edmond-ciorba"],
+      ["icon-facebook", "https://facebook.com/ciorba.edmond"]
+    ]
 
-    [[params.about.item]]
-      name = "Gergely Jahn"
-      position = "Co-founder & Senior Full Stack Software Engineer"
-      description = "An experienced Senior Software Engineer with strong skills in Object Oriented Design and Programming. In the past 10 years I’ve been working on mission critical and reporting systems."
-      img = "team/gergely_jahn.jpg"
-      alt = "Gergely Jahn"
-      social = [
-        ["icon-facebook", "https://facebook.com/dark.knight.750"]
-      ]      
+  [[languages.de.about.item]]
+    name = "Gergely Jahn"
+    position = "Co-founder & Senior Full Stack Software Engineer"
+    description = "An experienced Senior Software Engineer with strong skills in Object Oriented Design and Programming. In the past 10 years I’ve been working on mission critical and reporting systems."
+    img = "team/gergely_jahn.jpg"
+    alt = "Gergely Jahn"
+    social = [
+      ["icon-facebook", "https://facebook.com/dark.knight.750"]
+    ]      
 
-    [[params.about.item]]
-      name = "János Roden"
-      position = "Senior Cloud Architect Consultant"
-      description = "More than 8 years of senior software engineering experience, with strong analytical skills and a broad range of computer expertise."
-      img = "team/janos_roden.jpg"
-      alt = "János Roden"
-      social = [
-        ["icon-facebook", "https://facebook.com/janos.roden"]
-      ]
+  [[languages.de.about.item]]
+    name = "János Roden"
+    position = "Senior Cloud Architect Consultant"
+    description = "More than 8 years of senior software engineering experience, with strong analytical skills and a broad range of computer expertise."
+    img = "team/janos_roden.jpg"
+    alt = "János Roden"
+    social = [
+      ["icon-facebook", "https://facebook.com/janos.roden"]
+    ]
 
-    [[params.about.item]]
-      name = "Péter Jahn"
-      position = "Co-founder & Senior Full Stack Software Engineer"
-      description = "With almost 10 years of experience in developing and supporting mission critical and data management systems."
-      img = "team/peter_jahn.jpg"
-      alt = "Péter Jahn"
-      social = [
-        ["icon-linkedin", "https://linkedin.com/in/jahn-peter-balazs"],
-        ["icon-facebook", "https://facebook.com/jahn.peter.balazs"]
-      ]
+  [[languages.de.about.item]]
+    name = "Péter Jahn"
+    position = "Co-founder & Senior Full Stack Software Engineer"
+    description = "With almost 10 years of experience in developing and supporting mission critical and data management systems."
+    img = "team/peter_jahn.jpg"
+    alt = "Péter Jahn"
+    social = [
+      ["icon-linkedin", "https://linkedin.com/in/jahn-peter-balazs"],
+      ["icon-facebook", "https://facebook.com/jahn.peter.balazs"]
+    ]
 
 
   # Counters section
-  [params.counters]
+  [languages.de.counters]
     enable = true
     title = "Stats"
-    background = "full_image_1.jpg"
+    # background = "full_image_1.jpg"
 
-    [[params.counters.item]]
-      description = "Finished projects"
-      icon = "icon-briefcase"
-      from = 0
-      to = 10
-      interval = 50
-      speed = 5000
+  [[languages.de.counters.item]]
+    description = "Delivered projects"
+    icon = "icon-briefcase"
+    from = 0
+    to = 43
+    interval = 50
+    speed = 5000
 
-    [[params.counters.item]]
-      description = "Lines of code"
-      icon = "icon-code"
-      from = 0
-      to = 343409
-      interval = 50
-      speed = 5000
+  [[languages.de.counters.item]]
+    description = "Lines of code"
+    icon = "icon-code"
+    from = 0
+    to = 1343409
+    interval = 50
+    speed = 5000
 
-    [[params.counters.item]]
-      description = "Cups of coffee"
-      icon = "icon-cup"
-      from = 0
-      to = 1302
-      interval = 50
-      speed = 5000
-
-    [[params.counters.item]]
-      description = "Happy clients"
-      icon = "icon-people"
-      from = 0
-      to = 1
-      interval = 50
-      speed = 5000
+  [[languages.de.counters.item]]
+    description = "Cups of coffee"
+    icon = "icon-cup"
+    from = 0
+    to = 1302
+    interval = 50
+    speed = 5000
 
   # Contact section
-  [params.contact]
+  [languages.de.contact]
     enable = true
     map = true
     form = true
     title = "Get in touch"
-    # description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
-    
-    # Available icons: http://simplelineicons.com/
     details = [
-        ["icon-home", "2800 Tatabanya Fő tér 20.<br> Hungary"],
-        ["icon-phone", "(+36) 30 465-6789"],
-        ["icon-envelope", "info@blacksalt.io"],
-        ["icon-globe", '<a href="http://blacksalt.io" target="_blank">blacksalt.io</a>']
-      ]
-
+      ["icon-home", "2800 Tatabanya Fő tér 20.<br> Hungary"],
+      ["icon-phone", "(+36) 30 465-6789"],
+      ["icon-envelope", "info@blacksalt.io"],
+      ["icon-globe", '<a href="http://blacksalt.io" target="_blank">blacksalt.io</a>']
+    ]
     name = "Name"
     email = "Email"
     phone = "Phone"
@@ -315,10 +508,10 @@ theme = "hugo-elate-theme"
     button = "Send message"
 
   # Footer section
-  [params.footer]
+  [languages.de.footer]
     enable = true
     copyright = '&copy; Black Salt Kft. All Rights Reserved. <br>Created by <a href="#">BLACKSALT.io</a>'
     links = [
-        ["icon-twitter", "https://twitter.com/BlackSaltIT"],
-        ["icon-facebook", "https://facebook.com/blacksaltit"]
-      ]
+      ["icon-twitter", "https://twitter.com/BlackSaltIT"],
+      ["icon-facebook", "https://facebook.com/blacksaltit"]
+    ]

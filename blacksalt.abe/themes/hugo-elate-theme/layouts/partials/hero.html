@@ -3,13 +3,44 @@
 		<div class="container">
 			<div class="text-wrap">
 				<div class="text-inner">
-					<div class="row">
+					<!-- <div class="row">
 						<div class="col-md-8 col-md-offset-2">
-							<h1 class="to-animate">{{ with .Site.Params.hero.title }}{{ . | markdownify }}{{ end }} <span id="blinking-cursor">|</span></h1>
 							<h2 class="to-animate">{{ with .Site.Params.hero.subtitle }}{{ . | markdownify }}{{ end }}</h2>
 						</div>
+					</div> -->
+					<div class="row">
+						<div class="col-md-12 mx-auto">
+							<!-- <h1 class="to-animate">{{ with .Site.Params.hero.title }}{{ . | markdownify }}{{ end }} <span id="blinking-cursor">|</span></h1> -->
+							<h1 class="to-animate">{{ with .Site.Params.hero.title }}{{ . | markdownify }}{{ end }} </h1>
+							<!-- <h1 class="to-animate console-container"><span id="text"></span><div class="console-underscore" id="console">|</div></h1> -->
+							
+							<div class="to-animate terminal text-left terminal-section" id="terminal-demo">
+								<pre><code class="prompt">$</code><code class="input">{{ with .Site.Params.hero.subtitle }}{{ . | markdownify }}{{ end }}!</code></pre>
+								<pre><code class="prompt">$</code><code id="text" class="input"></code><code id="console" class="console-underscore cursor">|</code></pre>
+								<pre><code class="output"></code></pre>
+								<pre><code style="display:none" class="spinner"></code></pre>
+							</div>
+						</div>
+						<div class="clearfix visible-sm-block"></div>
+					</div>
+
+				</div>
+			</div>
+		</div>
+		<div class="container">
+			<div class="row">
+				{{ range .Site.Params.intro.item }}
+				<div class="fh5co-block to-animate" style="background-image: url(images/{{ .img }});">
+					<div class="overlay-darker"></div>
+					<div class="overlay"></div>
+					<div class="fh5co-text">
+						<i class="fh5co-intro-icon {{ .icon }}"></i>
+						<h2>{{ .title }}</h2>
+						<p>{{ .description }}</p>
+						<p><a href="{{ .url }}" class="btn btn-primary">{{ .button}}</a></p>
 					</div>
 				</div>
+				{{ end }}
 			</div>
 		</div>
 		<div class="slant"></div>
