@@ -277,12 +277,12 @@ copyright = "Everything is mine"
   home  = "Startseite"
   techs = "Technologien"
   services = "Leistungen"
-  about = "Über"
+  about = "Über Uns"
   contact = "Kontakt"
 
 [languages.de.hero]
   title = "Die fehlende Prise Software-Engineering"
-  subtitle = "Wir sind bereit für unsere nächste Reise"
+  subtitle = "Wir sind bereit für das nächste Abendteuer"
   keyword = [ "Schreib.", "Weniger.", "Code." ]
 
 [languages.de.intro]
@@ -364,29 +364,29 @@ copyright = "Everything is mine"
   [languages.de.services]
     enable = true
     title = "Services"
-    description = "We would like to share our experience with you"
+    description = "Unsere Leistungen..."
 
   [[languages.de.services.item]]
     title = "Web &amp; Mobile development"
     name = "Service_Web"
-    description = "There are 6.8 billion people on the planet, 5.1 billion of whom own a cell phone. And today, an ever-growing percentage of these devices are smartphones. According to a recent Pew Research Center Study, the number of users accessing the Internet on their smartphones has more than doubled in the past 5 years, as has the number of users downloading and using mobile apps. We want to conquer this world as well."
+    description = "Es gibt mehr als 6.8 Milliarden Menschen auf diesem Planet, und 5.1 Miliarden davon verfügen über ein Handy. Ein Mehrzeil von diesen Geräten sind Smartphones. Laut einer aktuellen Studie der Pew Research Center hat sich die Anzahl der Nutzer, die mit einem Smartphone auf das Internet zugreifen, in den letzten fünf Jahren mehr als verdoppelt. Kein Wunder das wir auch ein Teil von dieser Welt haben möchten."
     icon = "icon-mobile"
   [[languages.de.services.item]]
     title = "Consulting"
     name = "Service_Consulting"
-    description = "We are ready to become your technological partner, develop software which exactly meets the requirements of your specific project."
+    description = "Wir sind bereit, Ihr Technologiepartner zu werden, und eine Software zu entwickeln, die genau den Anforderungen Ihres spezifischen Projekts entspricht."
     icon = "icon-layers2"
   [[languages.de.services.item]]
     title = "Backend"
     name = "Service_Backend"
-    description = "Our solutions has been used for years in mission critical environments of airlines, airports and air traffic control. Optimized for quality assurance and operations."
+    description = "Unsere Lösungen werden seit Jahren in unternehmenskritischen Umgebungen von Fluggesellschaften, Flughäfen und in der Flugsicherung eingesetzt."
     icon = "icon-wrench"
 
 # About section
 [languages.de.about]
   enable = true
-  title = "About"
-  description = "“Coming together is a beginning. Keeping together is progress. Working together is success.” -Henry Ford"
+  title = "Über uns"
+  description = "“Zusammenkommen ist ein Beginn, zusammenbleiben ist ein Fortschritt, zusammenarbeiten ist ein Erfolg.” -Henry Ford"
 
 [[languages.de.about.item]]
   name = "Albert Papp"
@@ -404,7 +404,7 @@ copyright = "Everything is mine"
 [[languages.de.about.item]]
   name = "Ákos Belákovics"
   position = "Co-founder & Senior Full Stack Software Engineer"
-  description = "I am passionate about building integrated software systems and in the theoretical and practical methods and tools of software technology which are fit to the industrial standards."
+  description = "Ich bin begeistert vom Aufbau integrierter Softwaresysteme und von den theoretischen und praktischen Methoden und Werkzeugen der Softwaretechnologie, die den Industriestandards entsprechen."
   img = "team/akos_belakovics.jpg"
   alt = "Ákos Belákovics"
   social = [
@@ -417,7 +417,7 @@ copyright = "Everything is mine"
 [[languages.de.about.item]]
   name = "Edmond Ciorba"
   position = "Senior Full Stack Software Engineer Consultant"
-  description = "Software developer, contributing in data handling applications such as reporting and master data systems."
+  description = "Softwareentwickler, der in Daten-verarbeitungsanwendungen wie Berichts- und Stammdatensystemen mitwirkt."
   img = "team/edmond_ciorba.jpg"
   alt = "Edmond Ciorba"
   social = [
@@ -428,7 +428,7 @@ copyright = "Everything is mine"
 [[languages.de.about.item]]
   name = "Gergely Jahn"
   position = "Co-founder & Senior Full Stack Software Engineer"
-  description = "An experienced Senior Software Engineer with strong skills in Object Oriented Design and Programming. In the past 10 years I’ve been working on mission critical and reporting systems."
+  description = "Ein erfahrener Senior Software Engineer mit ausgeprägten Fähigkeiten in objektorientiertem Design und Programmierung, der in den letzten 10 Jahren an Reporting Systemen gearbeitet hat."
   img = "team/gergely_jahn.jpg"
   alt = "Gergely Jahn"
   social = [
@@ -438,7 +438,7 @@ copyright = "Everything is mine"
 [[languages.de.about.item]]
   name = "János Roden"
   position = "Senior Cloud Architect Consultant"
-  description = "More than 8 years of senior software engineering experience, with strong analytical skills and a broad range of computer expertise."
+  description = "Mehr als 8 Jahre Erfahrung als Senior Software Engineer mit starken analytischen Fähigkeiten und einer breiten Palette von IT-Kenntnissen."
   img = "team/janos_roden.jpg"
   alt = "János Roden"
   social = [
@@ -448,7 +448,7 @@ copyright = "Everything is mine"
 [[languages.de.about.item]]
   name = "Péter Jahn"
   position = "Co-founder & Senior Full Stack Software Engineer"
-  description = "With almost 10 years of experience in developing and supporting mission critical and data management systems."
+  description = "Über 10 Jahren Erfahrung in der Entwicklung und Unterstützung von J2EE Backends."
   img = "team/peter_jahn.jpg"
   alt = "Péter Jahn"
   social = [
@@ -460,11 +460,11 @@ copyright = "Everything is mine"
 # Counters section
 [languages.de.counters]
   enable = true
-  title = "Stats"
+  title = "Statistiken"
   # background = "full_image_1.jpg"
 
 [[languages.de.counters.item]]
-  description = "Delivered projects"
+  description = "Projekt Übergaben"
   icon = "icon-briefcase"
   from = 0
   to = 43
@@ -472,7 +472,7 @@ copyright = "Everything is mine"
   speed = 5000
 
 [[languages.de.counters.item]]
-  description = "Lines of code"
+  description = "Kodzeilen"
   icon = "icon-code"
   from = 0
   to = 1343409
@@ -480,7 +480,7 @@ copyright = "Everything is mine"
   speed = 5000
 
 [[languages.de.counters.item]]
-  description = "Cups of coffee"
+  description = "Kaffe"
   icon = "icon-cup"
   from = 0
   to = 1302
@@ -492,7 +492,7 @@ copyright = "Everything is mine"
   enable = true
   map = true
   form = true
-  title = "Get in touch"
+  title = "Kontakt"
   details = [
     ["icon-home", "2800 Tatabanya Fő tér 20.<br> Hungary"],
     ["icon-phone", "(+36) 30 465-6789"],
@@ -501,9 +501,9 @@ copyright = "Everything is mine"
   ]
   name = "Name"
   email = "Email"
-  phone = "Phone"
-  message = "Message"
-  button = "Send message"
+  phone = "Handy"
+  message = "Nachricht"
+  button = "Senden"
 
 # Footer section
 [languages.de.footer]

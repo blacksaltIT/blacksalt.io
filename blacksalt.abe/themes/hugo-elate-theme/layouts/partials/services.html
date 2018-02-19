@@ -12,16 +12,15 @@
         </div>
         <div class="row">
             {{ range .Site.Params.services.item }}
-            <a id="{{ .name | markdownify }}">
-
-                <div class="col-md-12 fh5co-service text-justify to-animate">
+          
+                <div  id="{{ .name }}" data-section="{{ .name }}" class="col-md-12 fh5co-service text-justify to-animate">
                     <i class="icon to-animate-2 {{ .icon | markdownify }}"></i>
 
 
                     <h3>{{ .title | markdownify }}</h3>
                     <p>{{ .description | markdownify }}</p>
                 </div>
-            </a>
+          
 
             <div class="clearfix visible-sm-block"></div>
             {{ end }}
