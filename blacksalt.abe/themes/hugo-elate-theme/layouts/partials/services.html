@@ -14,7 +14,9 @@
             {{ range .Site.Params.services.item }}
           
                 <div  id="{{ .name }}" data-section="{{ .name }}" class="col-md-12 fh5co-service text-justify to-animate">
-                    <i class="icon to-animate-2 {{ .icon | markdownify }}"></i>
+                    {{ range .icons }}
+                    <i class="icon to-animate-2 {{ . | markdownify }}"></i>
+                    {{ end }}
 
 
                     <h3>{{ .title | markdownify }}</h3>

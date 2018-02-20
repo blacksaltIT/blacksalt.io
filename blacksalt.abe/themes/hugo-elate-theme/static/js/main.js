@@ -50,7 +50,7 @@
               target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
               if (target.length) {
                 $('html, body').animate({
-                  scrollTop: (target.offset().top - 54)
+                  scrollTop: (target.offset().top - 54 /* navbar */ - 100)
                 }, 500, "easeInOutExpo");
                 return false;
               }
@@ -68,7 +68,7 @@
 			event.preventDefault();
 
 			$('html, body').animate({
-				scrollTop: $('html').offset().top
+				scrollTop: ($('html').offset().top)
 			}, 500);
 			
 			return false;
@@ -80,7 +80,7 @@
 	// Page Nav
 	var clickMenu = function() {
 
-		$('#navbar a:not([class="external"])').click(function(event){
+		$('#navbar a:not(.external)').click(function(event){
 			var section = $(this).data('nav-section'),
 				navbar = $('#navbar');
 
