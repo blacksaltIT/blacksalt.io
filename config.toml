@@ -33,6 +33,9 @@ copyright = "Everything is mine"
   title = "The missing pinch of software engineering"
   subtitle = "We are ready for our next journey"
   keyword = [ "Write.", "Less.", "Code." ]
+  callforactionTitle = "Achieving Balance and Stability"
+  callforactionLink = "mailto:customerservice@blacksalt.io"
+  callforactionCaption = "Hire Us!"
 
 # Intro section
 # Available icons: http://simplelineicons.com/
@@ -41,14 +44,18 @@ copyright = "Everything is mine"
   title = "Web & Mobile development"
   url = "Service_Web"
   icons = [ "icon-screen-desktop", "icon-screen-smartphone" ]
-  color = "#b5a397"
+  color = "#30231d"
+  # color = "#074DFD"
+  # color = "#b5a397"
   img = "img_7.jpg"
 
 [[languages.en.intro.item]]
   title = "Consulting"
   url = "Service_Consulting"
   icons = [ "icon-layers2" ]
-  color = "#6a5750"
+  color = "#30231d"
+  # color = "#074DFD"
+  # color = "#6a5750"
   img = "img_8.jpg"
 
 [[languages.en.intro.item]]
@@ -56,6 +63,8 @@ copyright = "Everything is mine"
   url = "Service_Backend"
   icons = [ "icon-wrench" ]
   color = "#30231d"
+  # color = "#074DFD"
+  # color = "#30231d"
   img = "img_10.jpg"
 
 [languages.en.techs]
@@ -155,7 +164,7 @@ copyright = "Everything is mine"
 [[languages.en.about.item]]
   name = "Ákos Belákovics"
   position = "Co-founder & Senior Full Stack Software Engineer"
-  description = "I am passionate about building integrated software systems and in the theoretical and practical methods and tools of software technology which are fit to the industrial standards."
+  description = "I am passionate about building integrated software systems which are fit to the industrial standards."
   img = "team/akos_belakovics.jpg"
   alt = "Ákos Belákovics"
   social = [
@@ -244,6 +253,7 @@ copyright = "Everything is mine"
   map = true
   form = true
   title = "Get in touch"
+  socialTitle = "Follow us"
   details = [
     ["icon-home", "2800 Tatabanya Fő tér 20.<br> Hungary"],
     ["icon-phone", "(+36) 30 465-6789"],
@@ -262,9 +272,15 @@ copyright = "Everything is mine"
   copyright = '&copy; Black Salt Kft. All Rights Reserved. <br>Created by <a href="#">BLACKSALT.io</a>'
   links = [
     ["icon-twitter", "https://twitter.com/BlackSaltIT"],
-    ["icon-facebook", "https://facebook.com/blacksaltit"]
+    ["icon-facebook", "https://facebook.com/blacksaltit"],
+    ["icon-linkedin", "https://facebook.com/blacksaltit"],
+    ["icon-github", "https://facebook.com/blacksaltit"],
+    ["icon-instagram", "https://facebook.com/blacksaltit"]
   ]
 
+#######################################################################
+# Deutsch
+#######################################################################
 
 [languages.de]
   title = "Die fehlende Prise Software-Engineering"
@@ -283,20 +299,23 @@ copyright = "Everything is mine"
   title = "Die fehlende Prise Software-Engineering"
   subtitle = "Wir sind bereit für das nächste Abendteuer"
   keyword = [ "Schreib.", "Weniger.", "Code." ]
+  callforactionTitle = "Balance und Stabilität erreichen"
+  callforactionLink = "#fh5co-contact"
+  callforactionCaption = "Stell uns<br/>ein!"
 
 [languages.de.intro]
 [[languages.de.intro.item]]
   title = "Web- und Mobile-Entwicklung"
   url = "Service_Web"
   icons = [ "icon-screen-desktop", "icon-screen-smartphone" ]
-  color = "#b5a397"
+  color = "#30231d"
   img = "img_7.jpg"
 
 [[languages.de.intro.item]]
   title = "Beratung"
   url = "Service_Consulting"
   icons = [ "icon-layers2" ]
-  color = "#6a5750"
+  color = "#30231d"
   img = "img_8.jpg"
 
 [[languages.de.intro.item]]
@@ -403,7 +422,7 @@ copyright = "Everything is mine"
 [[languages.de.about.item]]
   name = "Ákos Belákovics"
   position = "Co-founder & Senior Full Stack Software Engineer"
-  description = "Ich bin begeistert vom Aufbau integrierter Softwaresysteme und von den theoretischen und praktischen Methoden und Werkzeugen der Softwaretechnologie, die den Industriestandards entsprechen."
+  description = "Ich bin begeistert vom Aufbau integrierter Softwaresysteme, die den Industriestandards entsprechen."
   img = "team/akos_belakovics.jpg"
   alt = "Ákos Belákovics"
   social = [
@@ -416,7 +435,7 @@ copyright = "Everything is mine"
 [[languages.de.about.item]]
   name = "Edmond Ciorba"
   position = "Senior Full Stack Software Engineer Consultant"
-  description = "Softwareentwickler, der in Daten-verarbeitungsanwendungen wie Berichts- und Stammdatensystemen mitwirkt."
+  description = "Softwareentwickler, der in Daten-verarbeitungs&shy;anw&shy;end&shy;ungen wie Berichts- und Stammdatensystemen mitwirkt."
   img = "team/edmond_ciorba.jpg"
   alt = "Edmond Ciorba"
   social = [
@@ -492,6 +511,7 @@ copyright = "Everything is mine"
   map = true
   form = true
   title = "Kontakt"
+  socialTitle = "Follow us"
   details = [
     ["icon-home", "2800 Tatabanya Fő tér 20.<br> Hungary"],
     ["icon-phone", "(+36) 30 465-6789"],
@@ -537,20 +557,23 @@ copyright = "Everything is mine"
   title = "Egy csipetnyi hiányzó szoftverfejlesztés"
   subtitle = "Készen állunk a következő kihívásra"
   keyword = [ "Írj.", "Kevesebb.", "Kódot." ]
+  callforactionTitle = "Egyensúly és stabilitás elérése"
+  callforactionLink = "#fh5co-contact"
+  callforactionCaption = "Fogadjon<br/>fel minket!"
 
 [languages.hu.intro]
 [[languages.hu.intro.item]]
   title = "Web & Mobil Fejlesztés"
   url = "Service_Web"
   icons = [ "icon-screen-desktop", "icon-screen-smartphone" ]
-  color = "#b5a397"
+  color = "#30231d"
   img = "img_7.jpg"
 
 [[languages.hu.intro.item]]
   title = "Tanácsadás"
   url = "Service_Consulting"
   icons = [ "icon-layers2" ]
-  color = "#6a5750"
+  color = "#30231d"
   img = "img_8.jpg"
 
 [[languages.hu.intro.item]]
@@ -744,6 +767,7 @@ copyright = "Everything is mine"
   map = true
   form = true
   title = "Kapcsolat"
+  socialTitle = "Kövessen"
   details = [
     ["icon-home", "2800 Tatabanya Fő tér 20.<br> Hungary"],
     ["icon-phone", "(+36) 30 465-6789"],

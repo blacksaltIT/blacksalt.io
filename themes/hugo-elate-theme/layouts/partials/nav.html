@@ -58,13 +58,17 @@
                             <span>{{ with .Site.Params.navigation.about }}{{ . | markdownify }}{{ end }}</span>
                         </a>
                     </li>
-                    {{ end }} {{ if .Site.Params.contact.enable }}
+                    {{ end }}
+                    
+                    {{ if .Site.Params.contact.enable }}
                     <li class="nav-item">
                         <a href="#" class="nav-link" data-nav-section="contact">
                             <span>{{ with .Site.Params.navigation.contact }}{{ . | markdownify }}{{ end }}</span>
                         </a>
                     </li>
-                    {{ end }} {{ range .Site.Menus.postpend }}
+                    {{ end }}
+
+                    {{ range .Site.Menus.postpend }}
                     <li class="nav-item">
                         <a class="nav-link external" href="{{ .URL }}">
                             <span>{{ .Name | markdownify }}</span>
@@ -82,8 +86,8 @@
                                 {{ range .Translations }}
                                 <a href="{{ .Permalink }}" class="external dropdown-item">
                                     <div class="row">
-                                        <!-- <img src="/images/blank.gif" class="flag flag-{{ .Lang }} mx-2" style="margin-top: 1px;" alt="{{ .Lang }}" /> -->
-                                        <span class="ml-3">{{ i18n (lower (default .Lang .Site.Language.LanguageName)) . }}</span>
+                                        <img src="/images/blank.gif" class="flag flag-{{ .Lang }} ml-2" style="margin-top: 1px;" alt="{{ .Lang }}" />
+                                        <span class="ml-1">{{ i18n (lower (default .Lang .Site.Language.LanguageName)) . }}</span>
                                     </div>
                                 </a>
                             {{ end}}

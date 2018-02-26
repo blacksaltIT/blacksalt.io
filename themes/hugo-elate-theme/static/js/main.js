@@ -150,14 +150,14 @@
 		   	var header = $('#fh5co-header'),
 				scrlTop = $(this).scrollTop();
 
-			if ( scrlTop > 500 && scrlTop <= 2000 ) {
+			if ( scrlTop > 200 && scrlTop <= 2000 ) {
 				header.addClass('navbar-fixed-top fh5co-animated slideInDown');
-			} else if ( scrlTop <= 500) {
+			} else if ( scrlTop <= 200) {
 				if ( header.hasClass('navbar-fixed-top') ) {
 					header.addClass('navbar-fixed-top fh5co-animated slideOutUp');
 					setTimeout(function(){
 						header.removeClass('navbar-fixed-top fh5co-animated slideInDown slideOutUp');
-					}, 100 );
+					}, 50 );
 				}
 			} 
 			
@@ -186,7 +186,7 @@
 							},  k * 200, 'easeInOutExpo' );
 							
 						});
-					}, 200);
+					}, 100);
 
 					
 					$(this.element).addClass('animated');
@@ -215,7 +215,7 @@
 							},  k * 200, 'easeInOutExpo' );
 							
 						});
-					}, 1000);
+					}, 100);
 
 					
 					$(this.element).addClass('animated');
@@ -243,7 +243,7 @@
 							},  k * 200, 'easeInOutExpo' );
 							
 						});
-					}, 200);
+					}, 100);
 
 					
 					$(this.element).addClass('animated');
@@ -306,7 +306,7 @@
 				if( direction === 'down' && !$(this.element).hasClass('animated') ) {
 
 					var sec = services.find('.to-animate').length,
-						sec = parseInt((sec * 200) + 400);
+						sec = parseInt((sec * 150) + 400);
 
 					setTimeout(function() {
 						services.find('.to-animate').each(function( k ) {
@@ -317,7 +317,7 @@
 							},  k * 200, 'easeInOutExpo' );
 							
 						});
-					}, 200);
+					}, 10);
 
 					setTimeout(function() {
 						services.find('.to-animate-2').each(function( k ) {
@@ -358,7 +358,7 @@
 							},  k * 200, 'easeInOutExpo' );
 							
 						});
-					}, 200);
+					}, 10);
 
 					
 
@@ -390,7 +390,7 @@
 							},  k * 200, 'easeInOutExpo' );
 							
 						});
-					}, 200);
+					}, 10);
 
 					setTimeout(function() {
 						counters.find('.js-counter').countTo({
@@ -398,7 +398,7 @@
 				      		return value.toFixed(options.decimals);
 				   		},
 						});
-					}, 400);
+					}, 300);
 
 					setTimeout(function() {
 						counters.find('.to-animate-2').each(function( k ) {
@@ -441,7 +441,7 @@
 							},  k * 200, 'easeInOutExpo' );
 							
 						});
-					}, 200);
+					}, 10);
 
 					$(this.element).addClass('animated');
 						
@@ -462,7 +462,7 @@
 	// Document on load.
 	$(function(){
 
-		parallax();
+		// parallax();
 
 		burgerMenu();
 
