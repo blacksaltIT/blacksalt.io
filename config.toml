@@ -435,7 +435,7 @@ copyright = "Everything is mine"
 [[languages.de.about.item]]
   name = "Edmond Ciorba"
   position = "Senior Full Stack Software Engineer Consultant"
-  description = "Softwareentwickler, der in Daten-verarbeitungs&shy;anw&shy;end&shy;ungen wie Berichts- und Stammdatensystemen mitwirkt."
+  description = "Softwareentwickler, der in Daten&shy;verarbeitungs&shy;anwendungen wie Berichts- und Stamm&shy;daten&shy;systemen mitwirkt."
   img = "team/edmond_ciorba.jpg"
   alt = "Edmond Ciorba"
   social = [
