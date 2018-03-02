@@ -139,7 +139,7 @@ copyright = "Everything is mine"
 [[languages.en.services.item]]
   title = "Backend"
   name = "Service_Backend"
-  description = "Our solutions has been used for years in mission critical environments of airlines, airports and air traffic control. Optimized for quality assurance and operations."
+  description = "Our solutions have been used for years in mission critical environments of airlines, airports and air traffic control companies. Optimized for quality and reliability. In the past more than 10 years we have been developing Reporting, Master Data Management and high-available Data Hub systems for one of the greatest airlines in Europe via our partner company in Germany. The softwares we've delivered are still in use in the everyday operation of the airline."
   icons = [ "icon-wrench" ]
 
 # About section
@@ -397,7 +397,7 @@ copyright = "Everything is mine"
   [[languages.de.services.item]]
     title = "Backend"
     name = "Service_Backend"
-    description = "Unsere Lösungen werden seit Jahren in unternehmenskritischen Umgebungen von Fluggesellschaften, Flughäfen und in der Flugsicherung eingesetzt."
+    description = "Unsere Lösungen werden seit Jahren in unternehmenskritischen Umgebungen von Fluggesellschaften, Flughäfen und in der Flugsicherung eingesetzt. In den letzten 10 Jahren haben wir Reporting, Master Data Management und hochverfügbare Data Hub Systeme für eine der größten Fluggesellschaften in Europa über unseren deutschen Partner entwickelt. Die übergebenen Softwares sind immer noch im täglichen Betrieb der Airline im Einsatz."
     icons = [ "icon-wrench" ]
 
 # About section
@@ -511,7 +511,7 @@ copyright = "Everything is mine"
   map = true
   form = true
   title = "Kontakt"
-  socialTitle = "Follow us"
+  socialTitle = "Folge uns"
   details = [
     ["icon-home", "2800 Tatabanya Fő tér 20.<br> Hungary"],
     ["icon-phone", "(+36) 30 465-6789"],
@@ -530,7 +530,10 @@ copyright = "Everything is mine"
   copyright = '&copy; Black Salt Kft. All Rights Reserved. <br>Created by <a href="#">BLACKSALT.io</a>'
   links = [
     ["icon-twitter", "https://twitter.com/BlackSaltIT"],
-    ["icon-facebook", "https://facebook.com/blacksaltit"]
+    ["icon-facebook", "https://facebook.com/blacksaltit"],
+    ["icon-linkedin", "https://facebook.com/blacksaltit"],
+    ["icon-github", "https://facebook.com/blacksaltit"],
+    ["icon-instagram", "https://facebook.com/blacksaltit"]
   ]
 
 #######################################################################
@@ -645,17 +648,17 @@ copyright = "Everything is mine"
 [[languages.hu.services.item]]
   title = "Web &amp; Mobil Fejlesztés"
   name = "Service_Web"
-  description = "There are 6.8 billion people on the planet, 5.1 billion of whom own a cell phone. And today, an ever-growing percentage of these devices are smartphones. According to a recent Pew Research Center Study, the number of users accessing the Internet on their smartphones has more than doubled in the past 5 years, as has the number of users downloading and using mobile apps. We want to conquer this world as well."
+  description = "6.8 milliárd ember él a Földön, 5.1 milliárd rendelkezik közülük mobiltelefonnal, amelyek egyre nagyobb része okostelefon. Egy, a közelmúltban megjelent Pew Research Center tanulmány szerint, a telefonjaikon internetet használó felhasználók száma több mint megduplázódott az elmúlt 5 évben, ahogy a mobilalkalmazásokat használók száma is. Hisszük, hogy a jövőben ezek a számok még tovább fognak növekedni és megoldásainkkal szeretnénk kényelmesebbé, jobbá tenni ezen eszközök használatát."
   icons = [ "icon-screen-desktop", "icon-screen-smartphone" ]
 [[languages.hu.services.item]]
   title = "Tanácsadás"
   name = "Service_Consulting"
-  description = "Készen állunk, hogy az Ön technológiai partnerévé váljunk és segítsünk megvalósítani a projektjét, az Ön igényei alapján."
+  description = "Készen állunk, hogy technológiai partnerévé váljunk és segítsünk megvalósítani a projektjét, az Ön igényei alapján."
   icons = [ "icon-layers2" ]
 [[languages.hu.services.item]]
   title = "Backend"
   name = "Service_Backend"
-  description = "Our solutions has been used for years in mission critical environments of airlines, airports and air traffic control. Optimized for quality assurance and operations."
+  description = "Megoldásainkat légitársaságok, repterek és légiforgalom irányító társaságok döntő fontosságú környezetekben használják évek óta. Az elmúlt több mint 10 évben németországi partnerünkön keresztül Európa egyik legnagyobb légitársaságának fejlesztettünk elsősorban reporting és törzsadatkezelő (Master Data Management), valamint nagy rendelkezésre állású Data Hub rendszereket. Az általunk elkészített szoftverek a mai napig szerves részét képezik a légitársaság mindennapi működésének."
   icons = [ "icon-wrench" ]
   
 # About section
@@ -724,7 +727,7 @@ copyright = "Everything is mine"
 [[languages.hu.about.item]]
   name = "Péter Jahn"
   position = "Co-founder & Senior Full Stack Software Engineer"
-  description = "With almost 10 years of experience in developing and supporting mission critical and data management systems."
+  description = "Több mint 10 év tapasztalattal adatkezelő rendszerek fejlesztésében és karbantartásában."
   img = "team/peter_jahn.jpg"
   alt = "Péter Jahn"
   social = [
@@ -767,7 +770,7 @@ copyright = "Everything is mine"
   map = true
   form = true
   title = "Kapcsolat"
-  socialTitle = "Kövessen"
+  socialTitle = "Kövessen minket"
   details = [
     ["icon-home", "2800 Tatabanya Fő tér 20.<br> Hungary"],
     ["icon-phone", "(+36) 30 465-6789"],
@@ -785,5 +788,8 @@ copyright = "Everything is mine"
   copyright = '&copy; Black Salt Kft. Minden jog fenntartva. <br>Készítette <a href="#">BLACKSALT.io</a>'
   links = [
     ["icon-twitter", "https://twitter.com/BlackSaltIT"],
-    ["icon-facebook", "https://facebook.com/blacksaltit"]
+    ["icon-facebook", "https://facebook.com/blacksaltit"],
+    ["icon-linkedin", "https://facebook.com/blacksaltit"],
+    ["icon-github", "https://facebook.com/blacksaltit"],
+    ["icon-instagram", "https://facebook.com/blacksaltit"]
   ]
