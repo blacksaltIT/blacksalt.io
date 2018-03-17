@@ -36,13 +36,13 @@ function init() {
     var addresses = ['Tatabánya'];
 
     for (var x = 0; x < addresses.length; x++) {
-        $.getJSON('//maps.googleapis.com/maps/api/geocode/json?address='+addresses[x]+'&sensor=false', null, function (data) {
+        $.getJSON('//maps.googleapis.com/maps/api/geocode/json?address='+addresses[x], null, function (data) {
             var p = data.results[0].geometry.location
             var latlng = new google.maps.LatLng(p.lat, p.lng);
             new google.maps.Marker({
                 position: latlng,
                 map: map,
-                icon: '/images/loc.png'
+                icon: '/images/loc.svg'
             });
 
         });

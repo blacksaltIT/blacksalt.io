@@ -45,27 +45,18 @@ copyright = "Everything is mine"
   url = "Service_Web"
   icons = [ "icon-screen-desktop", "icon-screen-smartphone" ]
   color = "#30231d"
-  # color = "#074DFD"
-  # color = "#b5a397"
-  img = "img_7.jpg"
 
 [[languages.en.intro.item]]
   title = "Consulting"
   url = "Service_Consulting"
-  icons = [ "icon-layers2" ]
+  icons = [ "icon-layers" ]
   color = "#30231d"
-  # color = "#074DFD"
-  # color = "#6a5750"
-  img = "img_8.jpg"
 
 [[languages.en.intro.item]]
   title = "Backend"
   url = "Service_Backend"
   icons = [ "icon-wrench" ]
   color = "#30231d"
-  # color = "#074DFD"
-  # color = "#30231d"
-  img = "img_10.jpg"
 
 [languages.en.techs]
   enable = "True"
@@ -129,13 +120,13 @@ copyright = "Everything is mine"
 [[languages.en.services.item]]
   title = "Web &amp; Mobile development"
   name = "Service_Web"
-  description = "There are 6.8 billion people on the planet, 5.1 billion of whom own a cell phone. And today, an ever-growing percentage of these devices are smartphones. According to a recent Pew Research Center Study, the number of users accessing the Internet on their smartphones has more than doubled in the past 5 years, as has the number of users downloading and using mobile apps. We want to conquer this world as well."
+  description = "There are 7.4 billion people on the planet, 5.7 billion of whom own a cell phone. And today, an ever-growing percentage of these devices are smartphones. According to a recent Pew Research Center Study, the number of users accessing the Internet on their smartphones has more than doubled in the past 5 years, as has the number of users downloading and using mobile apps. We want to conquer this world as well."
   icons = [ "icon-screen-desktop", "icon-screen-smartphone" ]
 [[languages.en.services.item]]
   title = "Consulting"
   name = "Service_Consulting"
   description = "We are ready to become your technological partner, develop software which exactly meets the requirements of your specific project."
-  icons = [ "icon-layers2" ]
+  icons = [ "icon-layers" ]
 [[languages.en.services.item]]
   title = "Backend"
   name = "Service_Backend"
@@ -221,7 +212,6 @@ copyright = "Everything is mine"
 [languages.en.counters]
   enable = true
   title = "Stats"
-  # background = "full_image_1.jpg"
 
 [[languages.en.counters.item]]
   description = "Delivered projects"
@@ -255,8 +245,8 @@ copyright = "Everything is mine"
   title = "Get in touch"
   socialTitle = "Follow us"
   details = [
-    ["icon-home", "2800 Tatabanya Fő tér 20.<br> Hungary"],
-    ["icon-phone", "(+36) 30 465-6789"],
+    ["icon-home", "2800 Tatabanya Fő tér 20.</br>Hungary"],
+    ["icon-phone", "(+36) 21 381-0362"],
     ["icon-envelope", "info@blacksalt.io"],
     ["icon-globe", '<a href="http://blacksalt.io" target="_blank">blacksalt.io</a>']
   ]
@@ -309,21 +299,18 @@ copyright = "Everything is mine"
   url = "Service_Web"
   icons = [ "icon-screen-desktop", "icon-screen-smartphone" ]
   color = "#30231d"
-  img = "img_7.jpg"
 
 [[languages.de.intro.item]]
   title = "Beratung"
   url = "Service_Consulting"
-  icons = [ "icon-layers2" ]
+  icons = [ "icon-layers" ]
   color = "#30231d"
-  img = "img_8.jpg"
 
 [[languages.de.intro.item]]
   title = "Backend"
   url = "Service_Backend"
   icons = [ "icon-wrench" ]
   color = "#30231d"
-  img = "img_10.jpg"
 
 
 [languages.de.techs]
@@ -387,13 +374,13 @@ copyright = "Everything is mine"
   [[languages.de.services.item]]
     title = "Web &amp; Mobile development"
     name = "Service_Web"
-    description = "Es gibt mehr als 6.8 Milliarden Menschen auf diesem Planet, und 5.1 Miliarden davon verfügen über ein Handy. Ein Mehrzeil von diesen Geräten sind Smartphones. Laut einer aktuellen Studie der Pew Research Center hat sich die Anzahl der Nutzer, die mit einem Smartphone auf das Internet zugreifen, in den letzten fünf Jahren mehr als verdoppelt. Kein Wunder das wir auch ein Teil von dieser Welt haben möchten."
+    description = "Es gibt mehr als 7.4 Milliarden Menschen auf diesem Planet, und 5.7 Miliarden davon verfügen über ein Handy. Eine Mehrzahl von diesen Geräten sind Smartphones. Laut einer aktuellen Studie der Pew Research Center hat sich die Anzahl der Nutzer, die mit einem Smartphone auf das Internet zugreifen, in den letzten fünf Jahren mehr als verdoppelt. Kein Wunder das wir auch ein Teil von dieser Welt haben möchten."
     icons = [ "icon-screen-desktop", "icon-screen-smartphone" ]
   [[languages.de.services.item]]
     title = "Consulting"
     name = "Service_Consulting"
     description = "Wir sind bereit, Ihr Technologiepartner zu werden, und eine Software zu entwickeln, die genau den Anforderungen Ihres spezifischen Projekts entspricht."
-    icons = [ "icon-layers2" ]
+    icons = [ "icon-layers" ]
   [[languages.de.services.item]]
     title = "Backend"
     name = "Service_Backend"
@@ -408,7 +395,7 @@ copyright = "Everything is mine"
 
 [[languages.de.about.item]]
   name = "Albert Papp"
-  position = "Co-founder & CEO & Customer Relationship"
+  position = "Mitbegründer & CEO & Kundenbeziehung"
   description = "Große Dinge in der Wirtschaft werden nie von einer Person alleine geleistet. Sie werden von einem Team geleistet."
   img = "team/albert_papp.jpg"
   alt = "Albert Papp"
@@ -421,7 +408,7 @@ copyright = "Everything is mine"
 
 [[languages.de.about.item]]
   name = "Ákos Belákovics"
-  position = "Co-founder & Senior Full Stack Software Engineer"
+  position = "Mitbegründer & Senior Full Stack Software Engineer"
   description = "Ich bin begeistert vom Aufbau integrierter Softwaresysteme, die den Industriestandards entsprechen."
   img = "team/akos_belakovics.jpg"
   alt = "Ákos Belákovics"
@@ -434,7 +421,7 @@ copyright = "Everything is mine"
 
 [[languages.de.about.item]]
   name = "Edmond Ciorba"
-  position = "Senior Full Stack Software Engineer Consultant"
+  position = "Senior Full Stack Software Engineer Berater"
   description = "Softwareentwickler, der in Daten&shy;verarbeitungs&shy;anwendungen wie Berichts- und Stamm&shy;daten&shy;systemen mitwirkt."
   img = "team/edmond_ciorba.jpg"
   alt = "Edmond Ciorba"
@@ -445,7 +432,7 @@ copyright = "Everything is mine"
 
 [[languages.de.about.item]]
   name = "Gergely Jahn"
-  position = "Co-founder & Senior Full Stack Software Engineer"
+  position = "Mitbegründer & Senior Full Stack Software Engineer"
   description = "Ein erfahrener Senior Software Engineer mit ausgeprägten Fähigkeiten in objektorientiertem Design und Programmierung, der in den letzten 10 Jahren an Reporting Systemen gearbeitet hat."
   img = "team/gergely_jahn.jpg"
   alt = "Gergely Jahn"
@@ -455,7 +442,7 @@ copyright = "Everything is mine"
 
 [[languages.de.about.item]]
   name = "János Roden"
-  position = "Senior Cloud Architect Consultant"
+  position = "Senior Cloud Architect Berater"
   description = "Mehr als 8 Jahre Erfahrung als Senior Software Engineer mit starken analytischen Fähigkeiten und einer breiten Palette von IT-Kenntnissen."
   img = "team/janos_roden.jpg"
   alt = "János Roden"
@@ -465,7 +452,7 @@ copyright = "Everything is mine"
 
 [[languages.de.about.item]]
   name = "Péter Jahn"
-  position = "Co-founder & Senior Full Stack Software Engineer"
+  position = "Mitbegründer & Senior Full Stack Software Engineer"
   description = "Über 10 Jahren Erfahrung in der Entwicklung und Unterstützung von J2EE Backends."
   img = "team/peter_jahn.jpg"
   alt = "Péter Jahn"
@@ -479,7 +466,6 @@ copyright = "Everything is mine"
 [languages.de.counters]
   enable = true
   title = "Statistiken"
-  # background = "full_image_1.jpg"
 
 [[languages.de.counters.item]]
   description = "Projektübergaben"
@@ -513,8 +499,8 @@ copyright = "Everything is mine"
   title = "Kontakt"
   socialTitle = "Folge uns"
   details = [
-    ["icon-home", "2800 Tatabanya Fő tér 20.<br> Hungary"],
-    ["icon-phone", "(+36) 30 465-6789"],
+    ["icon-home", "2800 Tatabanya Fő tér 20.<br/>Ungarn"],
+    ["icon-phone", "(+36) 21 381-0362"],
     ["icon-envelope", "info@blacksalt.io"],
     ["icon-globe", '<a href="http://blacksalt.io" target="_blank">blacksalt.io</a>']
   ]
@@ -541,7 +527,6 @@ copyright = "Everything is mine"
 #######################################################################
 
 [languages.hu]
-  # title = "A hiányzó csipet a szoftverfejlesztésből"
   title = "Egy csipetnyi hiányzó szoftverfejlesztés"
   weight = 3
 
@@ -556,7 +541,6 @@ copyright = "Everything is mine"
   
 # Hero section
 [languages.hu.hero]
-  # title = "A hiányzó csipet a szoftverfejlesztésből"
   title = "Egy csipetnyi hiányzó szoftverfejlesztés"
   subtitle = "Készen állunk a következő kihívásra"
   keyword = [ "Írj.", "Kevesebb.", "Kódot." ]
@@ -570,21 +554,18 @@ copyright = "Everything is mine"
   url = "Service_Web"
   icons = [ "icon-screen-desktop", "icon-screen-smartphone" ]
   color = "#30231d"
-  img = "img_7.jpg"
 
 [[languages.hu.intro.item]]
   title = "Tanácsadás"
   url = "Service_Consulting"
-  icons = [ "icon-layers2" ]
+  icons = [ "icon-layers" ]
   color = "#30231d"
-  img = "img_8.jpg"
 
 [[languages.hu.intro.item]]
   title = "Backend"
   url = "Service_Backend"
   icons = [ "icon-wrench" ]
   color = "#30231d"
-  img = "img_10.jpg"
 
 
 [languages.hu.techs]
@@ -648,13 +629,13 @@ copyright = "Everything is mine"
 [[languages.hu.services.item]]
   title = "Web &amp; Mobil Fejlesztés"
   name = "Service_Web"
-  description = "6.8 milliárd ember él a Földön, 5.1 milliárd rendelkezik közülük mobiltelefonnal, amelyek egyre nagyobb része okostelefon. Egy, a közelmúltban megjelent Pew Research Center tanulmány szerint, a telefonjaikon internetet használó felhasználók száma több mint megduplázódott az elmúlt 5 évben, ahogy a mobilalkalmazásokat használók száma is. Hisszük, hogy a jövőben ezek a számok még tovább fognak növekedni és megoldásainkkal szeretnénk kényelmesebbé, jobbá tenni ezen eszközök használatát."
+  description = "7.4 milliárd ember él a Földön, 5.7 milliárd rendelkezik közülük mobiltelefonnal, amelyek egyre nagyobb része okostelefon. Egy, a közelmúltban megjelent Pew Research Center tanulmány szerint, a telefonjaikon internetet használó felhasználók száma több mint megduplázódott az elmúlt 5 évben, ahogy a mobilalkalmazásokat használók száma is. Hisszük, hogy a jövőben ezek a számok még tovább fognak növekedni és megoldásainkkal szeretnénk kényelmesebbé, jobbá tenni ezen eszközök használatát."
   icons = [ "icon-screen-desktop", "icon-screen-smartphone" ]
 [[languages.hu.services.item]]
   title = "Tanácsadás"
   name = "Service_Consulting"
   description = "Készen állunk, hogy technológiai partnerévé váljunk és segítsünk megvalósítani a projektjét, az Ön igényei alapján."
-  icons = [ "icon-layers2" ]
+  icons = [ "icon-layers" ]
 [[languages.hu.services.item]]
   title = "Backend"
   name = "Service_Backend"
@@ -669,7 +650,7 @@ copyright = "Everything is mine"
 
 [[languages.hu.about.item]]
   name = "Albert Papp"
-  position = "Co-founder & CEO & Customer Relationship"
+  position = "Társalapító & CEO & Ügyfél Kapcsolattartó"
   description = "A gazdasági sikereket nem egy ember éri el, hanem a csapat."
   img = "team/albert_papp.jpg"
   alt = "Albert Papp"
@@ -682,8 +663,8 @@ copyright = "Everything is mine"
 
 [[languages.hu.about.item]]
   name = "Ákos Belákovics"
-  position = "Co-founder & Senior Full Stack Software Engineer"
-  description = "I am passionate about building integrated software systems and in the theoretical and practical methods and tools of software technology which are fit to the industrial standards."
+  position = "Társalapító & Senior Full Stack Szoftverfejlesztő"
+  description = "Elhivatottság és tapasztalat, amelyek segítenek az olyan integrált szoftverrendszerek fejlesztéseben, amelyek megfelelnek az ipari szabványoknak."
   img = "team/akos_belakovics.jpg"
   alt = "Ákos Belákovics"
   social = [
@@ -695,7 +676,7 @@ copyright = "Everything is mine"
 
 [[languages.hu.about.item]]
   name = "Edmond Ciorba"
-  position = "Senior Full Stack Software Engineer Consultant"
+  position = "Senior Full Stack Szoftverfejlesztő Konzultáns"
   description = "Software developer, contributing in data handling applications such as reporting and master data systems."
   img = "team/edmond_ciorba.jpg"
   alt = "Edmond Ciorba"
@@ -706,7 +687,7 @@ copyright = "Everything is mine"
 
 [[languages.hu.about.item]]
   name = "Gergely Jahn"
-  position = "Co-founder & Senior Full Stack Software Engineer"
+  position = "Társalapító & Senior Full Stack Szoftverfejlesztő"
   description = "An experienced Senior Software Engineer with strong skills in Object Oriented Design and Programming. In the past 10 years I’ve been working on mission critical and reporting systems."
   img = "team/gergely_jahn.jpg"
   alt = "Gergely Jahn"
@@ -716,7 +697,7 @@ copyright = "Everything is mine"
 
 [[languages.hu.about.item]]
   name = "János Roden"
-  position = "Senior Cloud Architect Consultant"
+  position = "Senior Cloud Architect Konzultáns"
   description = "More than 8 years of senior software engineering experience, with strong analytical skills and a broad range of computer expertise."
   img = "team/janos_roden.jpg"
   alt = "János Roden"
@@ -726,7 +707,7 @@ copyright = "Everything is mine"
 
 [[languages.hu.about.item]]
   name = "Péter Jahn"
-  position = "Co-founder & Senior Full Stack Software Engineer"
+  position = "Társalapító & Senior Full Stack Szoftverfejlesztő"
   description = "Több mint 10 év tapasztalattal adatkezelő rendszerek fejlesztésében és karbantartásában."
   img = "team/peter_jahn.jpg"
   alt = "Péter Jahn"
@@ -772,8 +753,8 @@ copyright = "Everything is mine"
   title = "Kapcsolat"
   socialTitle = "Kövessen minket"
   details = [
-    ["icon-home", "2800 Tatabanya Fő tér 20.<br> Hungary"],
-    ["icon-phone", "(+36) 30 465-6789"],
+    ["icon-home", "2800 Tatabanya Fő tér 20.<br/>Magyarország"],
+    ["icon-phone", "(+36) 21 381-0362"],
     ["icon-envelope", "info@blacksalt.io"],
     ["icon-globe", '<a href="http://blacksalt.io" target="_blank">blacksalt.io</a>']
   ]
