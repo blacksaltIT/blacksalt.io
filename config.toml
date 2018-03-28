@@ -646,7 +646,7 @@ copyright = "Everything is mine"
 [languages.hu.about]
   enable = true
   title = "Rólunk"
-  description = "“Összejönni - jó kezdés. Együtt maradni - haladás. Együtt is dolgozni - siker.” -Henry Ford"
+  description = "Találkozni - jó kezdet. Nem elválni - haladás. Hosszútávon együtt dolgozni - siker.” - Henry Ford"
 
 [[languages.hu.about.item]]
   name = "Albert Papp"
@@ -677,7 +677,7 @@ copyright = "Everything is mine"
 [[languages.hu.about.item]]
   name = "Edmond Ciorba"
   position = "Senior Full Stack Szoftverfejlesztő Konzultáns"
-  description = "Software developer, contributing in data handling applications such as reporting and master data systems."
+  description = "Software fejlesztő, több éves tapasztalattal rendelkezem generikus törszadat kezelő alkalmazások és reporting rendszerek fejlesztése terén."
   img = "team/edmond_ciorba.jpg"
   alt = "Edmond Ciorba"
   social = [
@@ -688,7 +688,7 @@ copyright = "Everything is mine"
 [[languages.hu.about.item]]
   name = "Gergely Jahn"
   position = "Társalapító & Senior Full Stack Szoftverfejlesztő"
-  description = "An experienced Senior Software Engineer with strong skills in Object Oriented Design and Programming. In the past 10 years I’ve been working on mission critical and reporting systems."
+  description = "Az objektumorientált tervezésben és programozásban sok éves tapasztalattal rendelkező senior szoftvermérnök vagyok. Az elmúlt 10 évben mission critical alkamazásokat fejlesztettem és reporting rendszereken dolgoztam."
   img = "team/gergely_jahn.jpg"
   alt = "Gergely Jahn"
   social = [
@@ -698,7 +698,7 @@ copyright = "Everything is mine"
 [[languages.hu.about.item]]
   name = "János Roden"
   position = "Senior Cloud Architect Konzultáns"
-  description = "More than 8 years of senior software engineering experience, with strong analytical skills and a broad range of computer expertise."
+  description = "Több mint 8 éves senior szoftverfejlesztési tapasztalattal, erős elemző készségekkel és széles körű számítógépes szakértelemmel rendelkezem."
   img = "team/janos_roden.jpg"
   alt = "János Roden"
   social = [
@@ -708,7 +708,7 @@ copyright = "Everything is mine"
 [[languages.hu.about.item]]
   name = "Péter Jahn"
   position = "Társalapító & Senior Full Stack Szoftverfejlesztő"
-  description = "Több mint 10 év tapasztalattal adatkezelő rendszerek fejlesztésében és karbantartásában."
+  description = "Több mint 10 éve projektvezetéssel illetve adatkezelő rendszerek tervezésével, fejlesztésével foglalkozom."
   img = "team/peter_jahn.jpg"
   alt = "Péter Jahn"
   social = [
