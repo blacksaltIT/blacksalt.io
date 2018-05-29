@@ -20,6 +20,12 @@ copyright = "Everything is mine"
   title = "The missing pinch of software engineering"
   weight = 1
 
+# Cookie Consent
+[languages.en.cookieconsent]
+  text = "This website uses cookies to ensure you get the best experience on our website."
+  link = "Learn more"
+  dismiss = "Accept"
+
 # Navigation
 [languages.en.navigation]
   brand = "BLACKSALT"
@@ -291,6 +297,12 @@ copyright = "Everything is mine"
   title = "Die fehlende Prise Software-Engineering"
   weight = 2
 
+# Cookie Consent
+[languages.de.cookieconsent]
+  text = "Diese Website verwendet Cookies, um sicherzustellen, dass Sie die beste Erfahrung auf unserer Website erhalten."
+  link = "Mehr erfahren"
+  dismiss = "Verstanden"
+
 # skip params key for front matter
 [languages.de.navigation]
   brand = "BLACKSALT"
@@ -557,8 +569,14 @@ copyright = "Everything is mine"
 #######################################################################
 
 [languages.hu]
-  title = "Egy csipetnyi hiányzó szoftverfejlesztés"
+  title = "Egy csipetnyi hiányzó szoftver&shy;fejlesztés"
   weight = 3
+
+# Cookie Consent
+[languages.hu.cookieconsent]
+  text = "Ez a weboldal cookie-kat (sütiket) használ azért, hogy weboldalunk használata során a lehető legjobb élményt tudjuk biztosítani."
+  link = "Részletek"
+  dismiss = "Elfogadom"
 
 # Navigation
 [languages.hu.navigation]
@@ -571,12 +589,13 @@ copyright = "Everything is mine"
   
 # Hero section
 [languages.hu.hero]
-  title = "Egy csipetnyi hiányzó szoftverfejlesztés"
+  cookie = "Ez a weboldal cookie-kat (sütiket) használ azért, hogy weboldalunk használata során a lehető legjobb élményt tudjuk biztosítani."
+  title = "Egy csipetnyi hiányzó szoftver&shy;fejlesztés"
   subtitle = "Készen állunk a következő kihívásra"
   keyword = [ "Írj.", "Kevesebb.", "Kódot." ]
   callforactionTitle = "Egyensúly és stabilitás elérése"
   callforactionLink = "#fh5co-contact"
-  callforactionCaption = "Fogadjon<br/>fel minket!"
+  callforactionCaption = "Fogad&shy;jon<br/>fel minket!"
   background = "backgrounds/header.png"
 
 [languages.hu.intro]
