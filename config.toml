@@ -12,7 +12,7 @@ copyright = "Everything is mine"
   custom_css = ["css/custom.css", "css/terminal.css", "css/flags.css"]
   # Meta
   author = "Black Salt"
-  description = ""
+  description = "Software engineering and consulting at the highest level"
   email = "info@blacksalt.io"
 
 [languages]
@@ -36,6 +36,7 @@ copyright = "Everything is mine"
   callforactionTitle = "Achieving Balance and Stability"
   callforactionLink = "mailto:customerservice@blacksalt.io"
   callforactionCaption = "Hire Us!"
+  background = "backgrounds/header.png"
 
 # Intro section
 # Available icons: http://simplelineicons.com/
@@ -63,50 +64,62 @@ copyright = "Everything is mine"
   title="Technologies we use"
   
 [[languages.en.techs.tech]]
+  alt = "Angular & Nativescript"
   img = "techs/angular_nativescript.svg"
   description = "<p><b>Angular + Nativescript</b></p>The truly native mobile apps"
   link="https://www.nativescript.org"
 [[languages.en.techs.tech]]
+  alt = "Apollo"
   img = "techs/apollo.svg"
   description = "<p><b>Apollo</b></p>Ultra-flexible, community driven GraphQL client for React, JavaScript, and native platforms"
   link="https://www.apollographql.com"
 [[languages.en.techs.tech]]
+  alt = "Bootstrap"
   img = "techs/bootstrap.svg"
   description = "<p><b>Bootstrap</b></p>The world's most popular responsive and mobile-first front-end component library"
   link="https://getbootstrap.com/"
 [[languages.en.techs.tech]]
+  alt = "Azure"
   img = "techs/azure.svg"
   description = "<p><b>Azure</b></p>Building, testing, deploying, and managing applications and services in the cloud"
   link="https://azure.microsoft.com"
 [[languages.en.techs.tech]]
+  alt = "Django & Python"
   img = "techs/django_python.svg"
   description = "<p><b>Django + Python</b></p>High-level Python Web framework that encourages rapid development and clean, pragmatic design."
   link="https://www.djangoproject.com"
 [[languages.en.techs.tech]]
+  alt = "Docker"
   img = "techs/docker.svg"
   description = "<p><b>Docker</b></p>Platform for developers and sysadmins to build, ship, and run distributed applications, whether on laptops, data center VMs, or the cloud"
   link="https://www.docker.com"
 [[languages.en.techs.tech]]
+  alt = "Elasticsearch & Logstash & Kibana"
   img = "techs/elastic_logstash_kibana.svg"
   description = "<p><b>Elasticsearch + Logstash + Kibana</b></p>Effiective combination to store, find and display logs"
   link="https://www.elastic.co"
 [[languages.en.techs.tech]]
+  alt = "Firebase"
   img = "techs/firebase.svg"
   description = "<p><b>Firebase</b></p>Google's mobile platform that helps you quickly develop high-quality apps and grow your business."
   link="https://firebase.google.com"
 [[languages.en.techs.tech]]
+  alt = "GrapgQL"
   img = "techs/graphql.svg"
   description = "<p><b>GraphQL</b></p>New way to query your data. Write queries, not code"
   link="http://graphql.org"
 [[languages.en.techs.tech]]
+  alt = "Kubernetes"
   img = "techs/kubernetes.svg"
   description = "<p><b>Kubernetes</b></p>Production-Grade Container Orchestration which builds upon 15 years of experience of running production workloads at Google"
   link="https://kubernetes.io"
 [[languages.en.techs.tech]]
+  alt = "RabbitMQ"
   img = "techs/rabbitmq.svg"
   description = "<p><b>RabbitMQ</b></p>The most widely deployed open source message broker"
   link="https://www.rabbitmq.com"
 [[languages.en.techs.tech]]
+  alt = "Spring"
   img = "techs/spring.svg"
   description = "<p><b>Spring</b></p>Provides a comprehensive programming and configuration model for modern Java-based enterprise applications"
   link="https://spring.io"
@@ -116,6 +129,7 @@ copyright = "Everything is mine"
   enable = true
   title = "Services"
   description = "We would like to share our experience with you"
+  background = "backgrounds/services.png"
 
 [[languages.en.services.item]]
   title = "Web &amp; Mobile development"
@@ -212,6 +226,7 @@ copyright = "Everything is mine"
 [languages.en.counters]
   enable = true
   title = "Stats"
+  background = "backgrounds/counters.png"
 
 [[languages.en.counters.item]]
   description = "Delivered projects"
@@ -246,8 +261,8 @@ copyright = "Everything is mine"
   socialTitle = "Follow us"
   details = [
     ["icon-home", "2800 Tatabanya Fő tér 20.</br>Hungary"],
-    ["icon-phone", "(+36) 21 381-0362"],
-    ["icon-envelope", "info@blacksalt.io"],
+    ["icon-phone", '<a href="tel: (+36) 21 381-0362" target="_blank">(+36) 21 381-0362</a>'],
+    ["icon-envelope", '<span itemprop="telephone"><a href="mailto:info@blacksalt.io" target="_blank">info@blacksalt.io</a></span>'],
     ["icon-globe", '<a href="http://blacksalt.io" target="_blank">blacksalt.io</a>']
   ]
   name = "Name"
@@ -292,6 +307,7 @@ copyright = "Everything is mine"
   callforactionTitle = "Balance und Stabilität erreichen"
   callforactionLink = "#fh5co-contact"
   callforactionCaption = "Stell uns<br/>ein!"
+  background = "backgrounds/header.png"
 
 [languages.de.intro]
 [[languages.de.intro.item]]
@@ -317,50 +333,62 @@ copyright = "Everything is mine"
   enable = "True"
   title="Technologien, die wir verwenden"
 [[languages.de.techs.tech]]
+  alt = "Angular & Nativescript"
   img = "techs/angular_nativescript.svg"
   description = "<p><b>Angular + Nativescript</b></p>The truly native mobile apps"
   link="https://www.nativescript.org"
 [[languages.de.techs.tech]]
+  alt = "Apollo"
   img = "techs/apollo.svg"
   description = "<p><b>Apollo</b></p>Ultra-flexible, community driven GraphQL client for React, JavaScript, and native platforms"
   link="https://www.apollographql.com"
 [[languages.de.techs.tech]]
+  alt = "Bootstrap"
   img = "techs/bootstrap.svg"
   description = "<p><b>Bootstrap</b></p>The world's most popular responsive and mobile-first front-end component library"
   link="https://getbootstrap.com/"
 [[languages.de.techs.tech]]
+  alt = "Azure"
   img = "techs/azure.svg"
   description = "<p><b>Azure</b></p>Building, testing, deploying, and managing applications and services in the cloud"
   link="https://azure.microsoft.com"
 [[languages.de.techs.tech]]
+  alt = "Django & Python"
   img = "techs/django_python.svg"
   description = "<p><b>Django + Python</b></p>High-level Python Web framework that encourages rapid development and clean, pragmatic design."
   link="https://www.djangoproject.com"
 [[languages.de.techs.tech]]
+  alt = "Docker"
   img = "techs/docker.svg"
   description = "<p><b>Docker</b></p>Platform for developers and sysadmins to build, ship, and run distributed applications, whether on laptops, data center VMs, or the cloud"
   link="https://www.docker.com"
 [[languages.de.techs.tech]]
+  alt = "Elasticsearch & Logstash & Kibana"
   img = "techs/elastic_logstash_kibana.svg"
   description = "<p><b>Elasticsearch + Logstash + Kibana</b></p>Effiective combination to store, find and display logs"
   link="https://www.elastic.co"
 [[languages.de.techs.tech]]
+  alt = "Firebase"
   img = "techs/firebase.svg"
   description = "<p><b>Firebase</b></p>Google's mobile platform that helps you quickly develop high-quality apps and grow your business."
   link="https://firebase.google.com"
 [[languages.de.techs.tech]]
+  alt = "GrapgQL"
   img = "techs/graphql.svg"
   description = "<p><b>GraphQL</b></p>New way to query your data. Write queries, not code"
   link="http://graphql.org"
 [[languages.de.techs.tech]]
+  alt = "Kubernetes"
   img = "techs/kubernetes.svg"
   description = "<p><b>Kubernetes</b></p>Production-Grade Container Orchestration which builds upon 15 years of experience of running production workloads at Google"
   link="https://kubernetes.io"
 [[languages.de.techs.tech]]
+  alt = "RabbitMQ"
   img = "techs/rabbitmq.svg"
   description = "<p><b>RabbitMQ</b></p>The most widely deployed open source message broker"
   link="https://www.rabbitmq.com"
 [[languages.de.techs.tech]]
+  alt = "Spring"
   img = "techs/spring.svg"
   description = "<p><b>Spring</b></p>Provides a comprehensive programming and configuration model for modern Java-based enterprise applications"
   link="https://spring.io"
@@ -370,6 +398,7 @@ copyright = "Everything is mine"
     enable = true
     title = "Services"
     description = "Unsere Leistungen..."
+    background = "backgrounds/services.png"
 
   [[languages.de.services.item]]
     title = "Web &amp; Mobile development"
@@ -466,6 +495,7 @@ copyright = "Everything is mine"
 [languages.de.counters]
   enable = true
   title = "Statistiken"
+  background = "backgrounds/counters.png"
 
 [[languages.de.counters.item]]
   description = "Projektübergaben"
@@ -500,8 +530,8 @@ copyright = "Everything is mine"
   socialTitle = "Folge uns"
   details = [
     ["icon-home", "2800 Tatabanya Fő tér 20.<br/>Ungarn"],
-    ["icon-phone", "(+36) 21 381-0362"],
-    ["icon-envelope", "info@blacksalt.io"],
+    ["icon-phone", '<a href="tel: (+36) 21 381-0362" target="_blank">(+36) 21 381-0362</a>'],
+    ["icon-envelope", '<span itemprop="telephone"><a href="mailto:info@blacksalt.io" target="_blank">info@blacksalt.io</a></span>'],
     ["icon-globe", '<a href="http://blacksalt.io" target="_blank">blacksalt.io</a>']
   ]
   name = "Name"
@@ -547,6 +577,7 @@ copyright = "Everything is mine"
   callforactionTitle = "Egyensúly és stabilitás elérése"
   callforactionLink = "#fh5co-contact"
   callforactionCaption = "Fogadjon<br/>fel minket!"
+  background = "backgrounds/header.png"
 
 [languages.hu.intro]
 [[languages.hu.intro.item]]
@@ -572,50 +603,62 @@ copyright = "Everything is mine"
   enable = "True"
   title="Technológiák, amiket használunk"
 [[languages.hu.techs.tech]]
+  alt = "Angular & Nativescript"
   img = "techs/angular_nativescript.svg"
   description = "<p><b>Angular + Nativescript</b></p>The truly native mobile apps"
   link="https://www.nativescript.org"
 [[languages.hu.techs.tech]]
+  alt = "Apollo"
   img = "techs/apollo.svg"
   description = "<p><b>Apollo</b></p>Ultra-flexible, community driven GraphQL client for React, JavaScript, and native platforms"
   link="https://www.apollographql.com"
 [[languages.hu.techs.tech]]
+  alt = "Bootstrap"
   img = "techs/bootstrap.svg"
   description = "<p><b>Bootstrap</b></p>The world's most popular responsive and mobile-first front-end component library"
   link="https://getbootstrap.com/"
 [[languages.hu.techs.tech]]
+  alt = "Azure"
   img = "techs/azure.svg"
   description = "<p><b>Azure</b></p>Building, testing, deploying, and managing applications and services in the cloud"
   link="https://azure.microsoft.com"
 [[languages.hu.techs.tech]]
+  alt = "Django & Python"
   img = "techs/django_python.svg"
   description = "<p><b>Django + Python</b></p>High-level Python Web framework that encourages rapid development and clean, pragmatic design."
   link="https://www.djangoproject.com"
 [[languages.hu.techs.tech]]
+  alt = "Docker"
   img = "techs/docker.svg"
   description = "<p><b>Docker</b></p>Platform for developers and sysadmins to build, ship, and run distributed applications, whether on laptops, data center VMs, or the cloud"
   link="https://www.docker.com"
 [[languages.hu.techs.tech]]
+  alt = "Elasticsearch & Logstash & Kibana"
   img = "techs/elastic_logstash_kibana.svg"
   description = "<p><b>Elasticsearch + Logstash + Kibana</b></p>Effiective combination to store, find and display logs"
   link="https://www.elastic.co"
 [[languages.hu.techs.tech]]
+  alt = "Firebase"
   img = "techs/firebase.svg"
   description = "<p><b>Firebase</b></p>Google's mobile platform that helps you quickly develop high-quality apps and grow your business."
   link="https://firebase.google.com"
 [[languages.hu.techs.tech]]
+  alt = "GrapgQL"
   img = "techs/graphql.svg"
   description = "<p><b>GraphQL</b></p>New way to query your data. Write queries, not code"
   link="http://graphql.org"
 [[languages.hu.techs.tech]]
+  alt = "Kubernetes"
   img = "techs/kubernetes.svg"
   description = "<p><b>Kubernetes</b></p>Production-Grade Container Orchestration which builds upon 15 years of experience of running production workloads at Google"
   link="https://kubernetes.io"
 [[languages.hu.techs.tech]]
+  alt = "RabbitMQ"
   img = "techs/rabbitmq.svg"
   description = "<p><b>RabbitMQ</b></p>The most widely deployed open source message broker"
   link="https://www.rabbitmq.com"
 [[languages.hu.techs.tech]]
+  alt = "Spring"
   img = "techs/spring.svg"
   description = "<p><b>Spring</b></p>Provides a comprehensive programming and configuration model for modern Java-based enterprise applications"
   link="https://spring.io"
@@ -625,6 +668,7 @@ copyright = "Everything is mine"
   enable = true
   title = "Szolgáltatások"
   description = "Szeretnénk tapasztalatainkat Önnel is megosztani"
+  background = "backgrounds/services.png"
 
 [[languages.hu.services.item]]
   title = "Web &amp; Mobil Fejlesztés"
@@ -720,6 +764,7 @@ copyright = "Everything is mine"
 [languages.hu.counters]
   enable = true
   title = "Statisztikák"
+  background = "backgrounds/counters.png"
 
 [[languages.hu.counters.item]]
   description = "Átadott Projekt"
@@ -754,8 +799,8 @@ copyright = "Everything is mine"
   socialTitle = "Kövessen minket"
   details = [
     ["icon-home", "2800 Tatabanya Fő tér 20.<br/>Magyarország"],
-    ["icon-phone", "(+36) 21 381-0362"],
-    ["icon-envelope", "info@blacksalt.io"],
+    ["icon-phone", '<a href="tel: (+36) 21 381-0362" target="_blank">(+36) 21 381-0362</a>'],
+    ["icon-envelope", '<span itemprop="telephone"><a href="mailto:info@blacksalt.io" target="_blank">info@blacksalt.io</a></span>'],
     ["icon-globe", '<a href="http://blacksalt.io" target="_blank">blacksalt.io</a>']
   ]
   name = "Név"
