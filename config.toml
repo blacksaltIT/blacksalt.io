@@ -3,7 +3,7 @@ defaultContentLanguage = "en"
 # Force to have /en/my-page and /fr/my-page routes, even for default language.
 defaultContentLanguageInSubdir= true
 # Page settings
-baseURL = "http://www.blacksalt.io"
+baseURL = ""
 # languageCode = "en-us"
 theme = "hugo-elate-theme"
 copyright = "Everything is mine"
