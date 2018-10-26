@@ -159,7 +159,7 @@ copyright = "Everything is mine"
   title = "About"
   description = "“Coming together is a beginning. Keeping together is progress. Working together is success.” -Henry Ford"
 
-[[languages.en.about.item]]
+[[languages.en.about.item1]]
   name = "Albert Papp"
   position = "Co-founder & CEO & Customer Relationship"
   description = "Great things in business are never done by one person. They're done by a team of people."
@@ -168,11 +168,11 @@ copyright = "Everything is mine"
   social = [
     ["icon-linkedin", "https://linkedin.com/in/albert-papp"],
     ["icon-facebook", "https://facebook.com/albert.papp.75"],
-    ["icon-github",   "https://github.com/palbert75"],
-    ["icon-twitter",  "https://twitter.com/albert_m_papp"]
+    ["icon-github",   "https://github.com/palbert75"]
+  #  ["icon-twitter",  "https://twitter.com/albert_m_papp"]
   ]
 
-[[languages.en.about.item]]
+[[languages.en.about.item1]]
   name = "Ákos Belákovics"
   position = "Co-founder & Senior Full Stack Software Engineer"
   description = "I am passionate about building integrated software systems which are fit to the industrial standards."
@@ -180,10 +180,33 @@ copyright = "Everything is mine"
   alt = "Ákos Belákovics"
   social = [
     ["icon-linkedin", "https://linkedin.com/in/akos-belakovics"],
-    ["icon-github", "https://github.com/defned"],
     ["icon-facebook", "https://facebook.com/akos.belakovics"],
-    ["icon-twitter", "https://twitter.com/AkosBelakovics"]
+    ["icon-github", "https://github.com/defned"]
+  # ["icon-twitter", "https://twitter.com/AkosBelakovics"]
   ]
+
+[[languages.en.about.item1]]
+  name = "Gergely Jahn"
+  position = "Co-founder & Senior Full Stack Software Engineer"
+  description = "An experienced Senior Software Engineer with strong programming skills. The past 10 years he’s been working on mission critical and reporting systems."
+  img = "team/gergely_jahn.jpg"
+  alt = "Gergely Jahn"
+  social = [
+    ["icon-facebook", "https://facebook.com/dark.knight.750"]
+  ]
+
+
+[[languages.en.about.item1]]
+  name = "Péter Jahn"
+  position = "Co-founder & Senior Full Stack Software Engineer"
+  description = "With almost 10 years of experience in developing and supporting mission critical and data management systems."
+  img = "team/peter_jahn.jpg"
+  alt = "Péter Jahn"
+  social = [
+    ["icon-linkedin", "https://linkedin.com/in/jahn-peter-balazs"],
+    ["icon-facebook", "https://facebook.com/jahn.peter.balazs"]
+  ]
+
 
 [[languages.en.about.item]]
   name = "Edmond Ciorba"
@@ -195,16 +218,7 @@ copyright = "Everything is mine"
     ["icon-linkedin", "https://linkedin.com/in/edmond-ciorba"],
     ["icon-facebook", "https://facebook.com/ciorba.edmond"]
   ]
-
-[[languages.en.about.item]]
-  name = "Gergely Jahn"
-  position = "Co-founder & Senior Full Stack Software Engineer"
-  description = "An experienced Senior Software Engineer with strong skills in Object Oriented Design and Programming. In the past 10 years I’ve been working on mission critical and reporting systems."
-  img = "team/gergely_jahn.jpg"
-  alt = "Gergely Jahn"
-  social = [
-    ["icon-facebook", "https://facebook.com/dark.knight.750"]
-  ]      
+      
 
 [[languages.en.about.item]]
   name = "János Roden"
@@ -217,14 +231,13 @@ copyright = "Everything is mine"
   ]
 
 [[languages.en.about.item]]
-  name = "Péter Jahn"
-  position = "Co-founder & Senior Full Stack Software Engineer"
-  description = "With almost 10 years of experience in developing and supporting mission critical and data management systems."
-  img = "team/peter_jahn.jpg"
-  alt = "Péter Jahn"
+  name = "Mihály Magyar"
+  position = "Java Developer Software Engineer"
+  description = "Flexible team player who is always ready to learn."
+  img = "team/mihaly_magyar.jpg"
+  alt = "Mihály Magyar"
   social = [
-    ["icon-linkedin", "https://linkedin.com/in/jahn-peter-balazs"],
-    ["icon-facebook", "https://facebook.com/jahn.peter.balazs"]
+    ["icon-facebook", "https://www.facebook.com/mihaly.magyar.14"]
   ]
 
 
@@ -434,7 +447,7 @@ copyright = "Everything is mine"
   title = "Über uns"
   description = "“Zusammenkommen ist ein Beginn, zusammenbleiben ist ein Fortschritt, zusammenarbeiten ist ein Erfolg.” -Henry Ford"
 
-[[languages.de.about.item]]
+[[languages.de.about.item1]]
   name = "Albert Papp"
   position = "Mitbegründer & CEO & Kundenbeziehung"
   description = "Große Dinge in der Wirtschaft werden nie von einer Person alleine geleistet. Sie werden von einem Team geleistet."
@@ -444,10 +457,10 @@ copyright = "Everything is mine"
     ["icon-linkedin", "https://linkedin.com/in/albert-papp"],
     ["icon-facebook", "https://facebook.com/albert.papp.75"],
     ["icon-github",   "https://github.com/palbert75"],
-    ["icon-twitter",  "https://twitter.com/albert_m_papp"]
+   # ["icon-twitter",  "https://twitter.com/albert_m_papp"]
   ]
 
-[[languages.de.about.item]]
+[[languages.de.about.item1]]
   name = "Ákos Belákovics"
   position = "Mitbegründer & Senior Full Stack Software Engineer"
   description = "Ich bin begeistert vom Aufbau integrierter Softwaresysteme, die den Industriestandards entsprechen."
@@ -455,10 +468,32 @@ copyright = "Everything is mine"
   alt = "Ákos Belákovics"
   social = [
     ["icon-linkedin", "https://linkedin.com/in/akos-belakovics"],
-    ["icon-github", "https://github.com/defned"],
     ["icon-facebook", "https://facebook.com/akos.belakovics"],
-    ["icon-twitter", "https://twitter.com/AkosBelakovics"]
+    ["icon-github", "https://github.com/defned"]
+  # ["icon-twitter", "https://twitter.com/AkosBelakovics"]
   ]
+
+[[languages.de.about.item1]]
+  name = "Gergely Jahn"
+  position = "Mitbegründer & Senior Full Stack Software Engineer"
+  description = "Ein erfahrener Senior Software Engineer, der in den letzten 10 Jahren an Reporting Systemen gearbeitet hat."
+  img = "team/gergely_jahn.jpg"
+  alt = "Gergely Jahn"
+  social = [
+    ["icon-facebook", "https://facebook.com/dark.knight.750"]
+  ]      
+
+[[languages.de.about.item1]]
+  name = "Péter Jahn"
+  position = "Mitbegründer & Senior Full Stack Software Engineer"
+  description = "Über 10 Jahren Erfahrung in der Entwicklung und Unterstützung von J2EE Backends."
+  img = "team/peter_jahn.jpg"
+  alt = "Péter Jahn"
+  social = [
+    ["icon-linkedin", "https://linkedin.com/in/jahn-peter-balazs"],
+    ["icon-facebook", "https://facebook.com/jahn.peter.balazs"]
+  ]
+
 
 [[languages.de.about.item]]
   name = "Edmond Ciorba"
@@ -472,16 +507,6 @@ copyright = "Everything is mine"
   ]
 
 [[languages.de.about.item]]
-  name = "Gergely Jahn"
-  position = "Mitbegründer & Senior Full Stack Software Engineer"
-  description = "Ein erfahrener Senior Software Engineer mit ausgeprägten Fähigkeiten in objektorientiertem Design und Programmierung, der in den letzten 10 Jahren an Reporting Systemen gearbeitet hat."
-  img = "team/gergely_jahn.jpg"
-  alt = "Gergely Jahn"
-  social = [
-    ["icon-facebook", "https://facebook.com/dark.knight.750"]
-  ]      
-
-[[languages.de.about.item]]
   name = "János Roden"
   position = "Senior Cloud Architect Berater"
   description = "Mehr als 8 Jahre Erfahrung als Senior Software Engineer mit starken analytischen Fähigkeiten und einer breiten Palette von IT-Kenntnissen."
@@ -492,16 +517,14 @@ copyright = "Everything is mine"
   ]
 
 [[languages.de.about.item]]
-  name = "Péter Jahn"
-  position = "Mitbegründer & Senior Full Stack Software Engineer"
-  description = "Über 10 Jahren Erfahrung in der Entwicklung und Unterstützung von J2EE Backends."
-  img = "team/peter_jahn.jpg"
-  alt = "Péter Jahn"
+  name = "Mihály Magyar"
+  position = "Java Developer Software Engineer"
+  description = "Flexibler Teamspieler, der immer bereit ist zu lernen."
+  img = "team/mihaly_magyar.jpg"
+  alt = "Mihály Magyar"
   social = [
-    ["icon-linkedin", "https://linkedin.com/in/jahn-peter-balazs"],
-    ["icon-facebook", "https://facebook.com/jahn.peter.balazs"]
+    ["icon-facebook", "https://www.facebook.com/mihaly.magyar.14"]
   ]
-
 
 # Counters section
 [languages.de.counters]
@@ -711,7 +734,7 @@ copyright = "Everything is mine"
   title = "Rólunk"
   description = "Találkozni - jó kezdet. Nem elválni - haladás. Hosszútávon együtt dolgozni - siker.” - Henry Ford"
 
-[[languages.hu.about.item]]
+[[languages.hu.about.item1]]
   name = "Albert Papp"
   position = "Társalapító & CEO & Ügyfél Kapcsolattartó"
   description = "A gazdasági sikereket nem egy ember éri el, hanem a csapat."
@@ -720,11 +743,11 @@ copyright = "Everything is mine"
   social = [
     ["icon-linkedin", "https://linkedin.com/in/albert-papp"],
     ["icon-facebook", "https://facebook.com/albert.papp.75"],
-    ["icon-github",   "https://github.com/palbert75"],
-    ["icon-twitter",  "https://twitter.com/albert_m_papp"]
+    ["icon-github",   "https://github.com/palbert75"]
+   # ["icon-twitter",  "https://twitter.com/albert_m_papp"]
   ]
 
-[[languages.hu.about.item]]
+[[languages.hu.about.item1]]
   name = "Ákos Belákovics"
   position = "Társalapító & Senior Full Stack Szoftverfejlesztő"
   description = "Elhivatottság és tapasztalat, amelyek segítenek az olyan integrált szoftverrendszerek fejlesztéseben, amelyek megfelelnek az ipari szabványoknak."
@@ -732,9 +755,30 @@ copyright = "Everything is mine"
   alt = "Ákos Belákovics"
   social = [
     ["icon-linkedin", "https://linkedin.com/in/akos-belakovics"],
-    ["icon-github", "https://github.com/defned"],
     ["icon-facebook", "https://facebook.com/akos.belakovics"],
-    ["icon-twitter", "https://twitter.com/AkosBelakovics"]
+    ["icon-github", "https://github.com/defned"]
+    #["icon-twitter", "https://twitter.com/AkosBelakovics"]
+  ]
+
+[[languages.hu.about.item1]]
+  name = "Gergely Jahn"
+  position = "Társalapító & Senior Full Stack Szoftverfejlesztő"
+  description = "Sok éves tapasztalattal rendelkező senior szoftvermérnök a mission critical alkamazások és reporting rendszerek területén."
+  img = "team/gergely_jahn.jpg"
+  alt = "Gergely Jahn"
+  social = [
+    ["icon-facebook", "https://facebook.com/dark.knight.750"]
+  ]      
+
+[[languages.hu.about.item1]]
+  name = "Péter Jahn"
+  position = "Társalapító & Senior Full Stack Szoftverfejlesztő"
+  description = "Több mint 10 éve projektvezetéssel illetve adatkezelő rendszerek tervezésével, fejlesztésével foglalkozom."
+  img = "team/peter_jahn.jpg"
+  alt = "Péter Jahn"
+  social = [
+    ["icon-linkedin", "https://linkedin.com/in/jahn-peter-balazs"],
+    ["icon-facebook", "https://facebook.com/jahn.peter.balazs"]
   ]
 
 [[languages.hu.about.item]]
@@ -748,15 +792,6 @@ copyright = "Everything is mine"
     ["icon-facebook", "https://facebook.com/ciorba.edmond"]
   ]
 
-[[languages.hu.about.item]]
-  name = "Gergely Jahn"
-  position = "Társalapító & Senior Full Stack Szoftverfejlesztő"
-  description = "Az objektumorientált tervezésben és programozásban sok éves tapasztalattal rendelkező senior szoftvermérnök vagyok. Az elmúlt 10 évben mission critical alkamazásokat fejlesztettem és reporting rendszereken dolgoztam."
-  img = "team/gergely_jahn.jpg"
-  alt = "Gergely Jahn"
-  social = [
-    ["icon-facebook", "https://facebook.com/dark.knight.750"]
-  ]      
 
 [[languages.hu.about.item]]
   name = "János Roden"
@@ -769,14 +804,13 @@ copyright = "Everything is mine"
   ]
 
 [[languages.hu.about.item]]
-  name = "Péter Jahn"
-  position = "Társalapító & Senior Full Stack Szoftverfejlesztő"
-  description = "Több mint 10 éve projektvezetéssel illetve adatkezelő rendszerek tervezésével, fejlesztésével foglalkozom."
-  img = "team/peter_jahn.jpg"
-  alt = "Péter Jahn"
+  name = "Mihály Magyar"
+  position = "Java Developer Software Engineer"
+  description = "Rugalmas csapatjátékos, nagy adaptációs készséggel."
+  img = "team/mihaly_magyar.jpg"
+  alt = "Mihály Magyar"
   social = [
-    ["icon-linkedin", "https://linkedin.com/in/jahn-peter-balazs"],
-    ["icon-facebook", "https://facebook.com/jahn.peter.balazs"]
+    ["icon-facebook", "https://www.facebook.com/mihaly.magyar.14"]
   ]
 
 # Counters section
