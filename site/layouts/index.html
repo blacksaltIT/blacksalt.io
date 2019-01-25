@@ -1,9 +1,49 @@
-{{ define "main" }}
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <![endif]-->
+<html itemscope itemtype="http://schema.org/WebPage" lang="{{ .Lang }}">
+    <head>
+        {{ partial "head.html" .}}
+    </head>
+    <body>
+        {{ partial "nav.html" .}}
 
-<h1>Hugo with Webpack, Sass, and PostCSS</h1>
+		{{ partial "hero.html" .}}
+		
+        {{ partial "intro.html" .}}
+		
+		{{ partial "techs.html" .}}
 
-<h3>Hooray 🎉 - you've built this with <a href="https://github.com/netlify/victor-hugo">Victor-Hugo</a>!</h3>
+		{{ if .Site.Params.work.enable }}
+       		{{ partial "work.html" .}}
+       	{{ end }}
 
-<a href="{{ "/tech" | relURL }}">Check out the tech</a>
+		{{ if .Site.Params.testimonials.enable }}
+        	{{ partial "testimonials.html" .}}
+		{{ end }}
 
-{{ end }}
+		{{ if .Site.Params.services.enable }}
+        	{{ partial "services.html" .}}
+		{{ end }}
+
+		{{ if .Site.Params.about.enable }}
+        	{{ partial "about.html" .}}
+		{{ end }}
+
+		{{ if .Site.Params.counters.enable }}
+        	{{ partial "counters.html" .}}
+        {{ end }}
+
+		{{ if .Site.Params.contact.enable }}
+        	{{ partial "contact.html" .}}
+        {{ end }}
+
+        {{ if .Site.Params.footer.enable }}
+        	{{ partial "footer.html" .}}
+        {{ end }}
+
+        {{ partial "js.html" .}}
+    </body>
+</html>
