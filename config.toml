@@ -207,17 +207,6 @@ copyright = "Everything is mine"
     ["icon-facebook", "https://facebook.com/jahn.peter.balazs"]
   ]
 
-
-[[languages.en.about.item]]
-  name = "Edmond Ciorba"
-  position = "Senior Full Stack Software Engineer Consultant"
-  description = "Software developer, contributing in data handling applications such as reporting and master data systems."
-  img = "team/edmond_ciorba.jpg"
-  alt = "Edmond Ciorba"
-  social = [
-    ["icon-linkedin", "https://linkedin.com/in/edmond-ciorba"],
-    ["icon-facebook", "https://facebook.com/ciorba.edmond"]
-  ]
       
 
 [[languages.en.about.item]]
@@ -279,8 +268,8 @@ copyright = "Everything is mine"
   title = "Get in touch"
   socialTitle = "Follow us"
   details = [
-    ["icon-home", "2800 Tatabanya Fő tér 20.</br>Hungary"],
-    ["icon-phone", '<a href="tel: (+36) 21 381-0362" target="_blank">(+36) 21 381-0362</a>'],
+    ["icon-home", "2800 Tatabanya Fő tér 20.</br>1066 Budapest Dessewfy str. 18-20. D18 Hungary"],
+    ["icon-phone", '<a href="tel: +36 1 490 0940" target="_blank">+36 1 490 0940</a>'],
     ["icon-envelope", '<span itemprop="telephone"><a href="mailto:info@blacksalt.io" target="_blank">info@blacksalt.io</a></span>'],
     ["icon-globe", '<a href="http://blacksalt.io" target="_blank">blacksalt.io</a>']
   ]
@@ -330,7 +319,7 @@ copyright = "Everything is mine"
   subtitle = "Wir sind bereit für das nächste Abendteuer"
   keyword = [ "Schreib.", "Weniger.", "Code." ]
   callforactionTitle = "Balance und Stabilität erreichen"
-  callforactionLink = "#fh5co-contact"
+  callforactionLink = "mailto:customerservice@blacksalt.io"
   callforactionCaption = "Stell uns<br/>ein!"
   background = "backgrounds/header.png"
 
@@ -496,17 +485,6 @@ copyright = "Everything is mine"
 
 
 [[languages.de.about.item]]
-  name = "Edmond Ciorba"
-  position = "Senior Full Stack Software Engineer Berater"
-  description = "Softwareentwickler, der in Daten&shy;verarbeitungs&shy;anwendungen wie Berichts- und Stamm&shy;daten&shy;systemen mitwirkt."
-  img = "team/edmond_ciorba.jpg"
-  alt = "Edmond Ciorba"
-  social = [
-    ["icon-linkedin", "https://linkedin.com/in/edmond-ciorba"],
-    ["icon-facebook", "https://facebook.com/ciorba.edmond"]
-  ]
-
-[[languages.de.about.item]]
   name = "János Roden"
   position = "Senior Cloud Architect Berater"
   description = "Mehr als 8 Jahre Erfahrung als Senior Software Engineer mit starken analytischen Fähigkeiten und einer breiten Palette von IT-Kenntnissen."
@@ -564,8 +542,8 @@ copyright = "Everything is mine"
   title = "Kontakt"
   socialTitle = "Folge uns"
   details = [
-    ["icon-home", "2800 Tatabanya Fő tér 20.<br/>Ungarn"],
-    ["icon-phone", '<a href="tel: (+36) 21 381-0362" target="_blank">(+36) 21 381-0362</a>'],
+    ["icon-home", "2800 Tatabanya Fő tér 20.<br/>1066 Budapest Dessewfy Str. 18-20. D18 Ungarn"],
+    ["icon-phone", '<a href="tel: +36 1 490 0940" target="_blank">+36 1 490 0940</a>'],
     ["icon-envelope", '<span itemprop="telephone"><a href="mailto:info@blacksalt.io" target="_blank">info@blacksalt.io</a></span>'],
     ["icon-globe", '<a href="http://blacksalt.io" target="_blank">blacksalt.io</a>']
   ]
@@ -617,7 +595,7 @@ copyright = "Everything is mine"
   subtitle = "Készen állunk a következő kihívásra"
   keyword = [ "Írj.", "Kevesebb.", "Kódot." ]
   callforactionTitle = "Egyensúly és stabilitás elérése"
-  callforactionLink = "#fh5co-contact"
+  callforactionLink = "mailto:customerservice@blacksalt.io"
   callforactionCaption = "Fogad&shy;jon<br/>fel minket!"
   background = "backgrounds/header.png"
 
@@ -781,17 +759,6 @@ copyright = "Everything is mine"
     ["icon-facebook", "https://facebook.com/jahn.peter.balazs"]
   ]
 
-[[languages.hu.about.item]]
-  name = "Edmond Ciorba"
-  position = "Senior Full Stack Szoftverfejlesztő Konzultáns"
-  description = "Software fejlesztő, több éves tapasztalattal rendelkezem generikus törszadat kezelő alkalmazások és reporting rendszerek fejlesztése terén."
-  img = "team/edmond_ciorba.jpg"
-  alt = "Edmond Ciorba"
-  social = [
-    ["icon-linkedin", "https://linkedin.com/in/edmond-ciorba"],
-    ["icon-facebook", "https://facebook.com/ciorba.edmond"]
-  ]
-
 
 [[languages.hu.about.item]]
   name = "János Roden"
@@ -851,8 +818,8 @@ copyright = "Everything is mine"
   title = "Kapcsolat"
   socialTitle = "Kövessen minket"
   details = [
-    ["icon-home", "2800 Tatabanya Fő tér 20.<br/>Magyarország"],
-    ["icon-phone", '<a href="tel: (+36) 21 381-0362" target="_blank">(+36) 21 381-0362</a>'],
+    ["icon-home", "2800 Tatabanya Fő tér 20.<br/>1066 Budapest Dessewfy u. 18-20. D18 Magyarország"],
+    ["icon-phone", '<a href="tel: +36 1 490 0940" target="_blank">+36 1 490 0940</a>'],
     ["icon-envelope", '<span itemprop="telephone"><a href="mailto:info@blacksalt.io" target="_blank">info@blacksalt.io</a></span>'],
     ["icon-globe", '<a href="http://blacksalt.io" target="_blank">blacksalt.io</a>']
   ]
