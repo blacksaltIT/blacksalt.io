@@ -1,3 +1,6 @@
+[context.production.environment]
+  HUGO_VERSION = "0.53"
+
 [build]
-  command = "hugo --baseURL http://blacksalt.io --destination public"
+  command = "hugo --gc --minify --baseURL http://blacksalt.io --destination public --i18n-warnings --verbose"
   publish = "public/"
