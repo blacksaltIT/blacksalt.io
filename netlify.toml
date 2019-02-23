@@ -1,4 +1,3 @@
 [build]
-#  command = "hugo --baseURL http://blacksalt.io --destination public --i18n-warnings --verbose"
-  command = "hugo version"
+  command = "hugo --baseURL http://blacksalt.io --destination public"
   publish = "public/"
