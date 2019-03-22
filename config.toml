@@ -271,8 +271,9 @@ copyright = "Everything is mine"
     ["icon-home", "2800 Tatabanya Fő tér 20.</br>1066 Budapest Dessewfy str. 18-20. D18 Hungary"],
     ["icon-phone", '<a href="tel: +36 1 490 0940" target="_blank">+36 1 490 0940</a>'],
     ["icon-envelope", '<span itemprop="telephone"><a href="mailto:info@blacksalt.io" target="_blank">info@blacksalt.io</a></span>'],
-    ["icon-globe", '<a href="http://blacksalt.io" target="_blank">blacksalt.io</a>']
-  ]
+    ["icon-globe", '<a href="http://blacksalt.io" target="_blank">blacksalt.io</a>'],
+    ["icon-user-secret", '<a href="https://blacksalt.io/docs/privacy-policy.pdf" target="_blank">Privacy Policy</a>']
+ ]
   name = "Name"
   email = "Email"
   phone = "Phone"
@@ -545,8 +546,10 @@ copyright = "Everything is mine"
     ["icon-home", "2800 Tatabanya Fő tér 20.<br/>1066 Budapest Dessewfy Str. 18-20. D18 Ungarn"],
     ["icon-phone", '<a href="tel: +36 1 490 0940" target="_blank">+36 1 490 0940</a>'],
     ["icon-envelope", '<span itemprop="telephone"><a href="mailto:info@blacksalt.io" target="_blank">info@blacksalt.io</a></span>'],
-    ["icon-globe", '<a href="http://blacksalt.io" target="_blank">blacksalt.io</a>']
-  ]
+    ["icon-globe", '<a href="http://blacksalt.io" target="_blank">blacksalt.io</a>'],
+    ["icon-user-secret", '<a href="https://blacksalt.io/docs/privacy-policy.pdf" target="_blank">Datenschutz</a>']
+
+ ]
   name = "Name"
   email = "Email"
   phone = "Handy"
@@ -562,7 +565,7 @@ copyright = "Everything is mine"
     ["icon-facebook", "https://facebook.com/blacksaltit"],
     ["icon-linkedin", "https://facebook.com/blacksaltit"],
     ["icon-github", "https://facebook.com/blacksaltit"],
-    ["icon-instagram", "https://facebook.com/blacksaltit"]
+    ["icon-instagram", "https://facebook.com/blacksaltit"],    
   ]
 
 #######################################################################
@@ -821,7 +824,8 @@ copyright = "Everything is mine"
     ["icon-home", "2800 Tatabanya Fő tér 20.<br/>1066 Budapest Dessewfy u. 18-20. D18 Magyarország"],
     ["icon-phone", '<a href="tel: +36 1 490 0940" target="_blank">+36 1 490 0940</a>'],
     ["icon-envelope", '<span itemprop="telephone"><a href="mailto:info@blacksalt.io" target="_blank">info@blacksalt.io</a></span>'],
-    ["icon-globe", '<a href="http://blacksalt.io" target="_blank">blacksalt.io</a>']
+    ["icon-globe", '<a href="http://blacksalt.io" target="_blank">blacksalt.io</a>'],
+    ["icon-user-secret", '<a href="https://blacksalt.io/docs/privacy-policy.pdf" target="_blank">Adatkezelési tájékoztató</a>']
   ]
   name = "Név"
   email = "Email"
