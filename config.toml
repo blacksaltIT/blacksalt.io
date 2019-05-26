@@ -196,7 +196,7 @@ copyright = "Everything is mine"
   ]
 
 
-[[languages.en.about.item1]]
+[[languages.en.about.item]]
   name = "Péter Jahn"
   position = "Co-founder & Senior Full Stack Software Engineer"
   description = "With almost 10 years of experience in developing and supporting mission critical and data management systems."
@@ -218,17 +218,6 @@ copyright = "Everything is mine"
   social = [
     ["icon-facebook", "https://facebook.com/janos.roden"]
   ]
-
-[[languages.en.about.item]]
-  name = "Mihály Magyar"
-  position = "Java Developer Software Engineer"
-  description = "Flexible team player who is always ready to learn."
-  img = "team/mihaly_magyar.jpg"
-  alt = "Mihály Magyar"
-  social = [
-    ["icon-facebook", "https://www.facebook.com/mihaly.magyar.14"]
-  ]
-
 
 # Counters section
 [languages.en.counters]
@@ -473,7 +462,7 @@ copyright = "Everything is mine"
     ["icon-facebook", "https://facebook.com/dark.knight.750"]
   ]      
 
-[[languages.de.about.item1]]
+[[languages.de.about.item]]
   name = "Péter Jahn"
   position = "Mitbegründer & Senior Full Stack Software Engineer"
   description = "Über 10 Jahren Erfahrung in der Entwicklung und Unterstützung von J2EE Backends."
@@ -493,16 +482,6 @@ copyright = "Everything is mine"
   alt = "János Roden"
   social = [
     ["icon-facebook", "https://facebook.com/janos.roden"]
-  ]
-
-[[languages.de.about.item]]
-  name = "Mihály Magyar"
-  position = "Java Developer Software Engineer"
-  description = "Flexibler Teamspieler, der immer bereit ist zu lernen."
-  img = "team/mihaly_magyar.jpg"
-  alt = "Mihály Magyar"
-  social = [
-    ["icon-facebook", "https://www.facebook.com/mihaly.magyar.14"]
   ]
 
 # Counters section
@@ -751,7 +730,7 @@ copyright = "Everything is mine"
     ["icon-facebook", "https://facebook.com/dark.knight.750"]
   ]      
 
-[[languages.hu.about.item1]]
+[[languages.hu.about.item]]
   name = "Péter Jahn"
   position = "Társalapító & Senior Full Stack Szoftverfejlesztő"
   description = "Több mint 10 éve projektvezetéssel illetve adatkezelő rendszerek tervezésével, fejlesztésével foglalkozom."
@@ -771,16 +750,6 @@ copyright = "Everything is mine"
   alt = "János Roden"
   social = [
     ["icon-facebook", "https://facebook.com/janos.roden"]
-  ]
-
-[[languages.hu.about.item]]
-  name = "Mihály Magyar"
-  position = "Java Developer Software Engineer"
-  description = "Rugalmas csapatjátékos, nagy adaptációs készséggel."
-  img = "team/mihaly_magyar.jpg"
-  alt = "Mihály Magyar"
-  social = [
-    ["icon-facebook", "https://www.facebook.com/mihaly.magyar.14"]
   ]
 
 # Counters section
