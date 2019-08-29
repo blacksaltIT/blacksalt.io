@@ -24,6 +24,10 @@
         	{{ partial "testimonials.html" .}}
 		{{ end }}
 
+		{{ if .Site.Params.prices.enable }}
+        	{{ partial "prices.html" .}}
+		{{ end }}
+
 		{{ if .Site.Params.services.enable }}
         	{{ partial "services.html" .}}
 		{{ end }}

@@ -46,6 +46,12 @@
                             <span>{{ with .Site.Params.navigation.testimonials }}{{ . | markdownify }}{{ end }}</span>
                         </a>
                     </li>
+                    {{ end }} {{ if .Site.Params.prices.enable }}
+                    <li class="nav-item">
+                        <a href="#" class="nav-link" data-nav-section="prices">
+                            <span>{{ with .Site.Params.navigation.prices }}{{ . | markdownify }}{{ end }}</span>
+                        </a>
+                    </li>
                     {{ end }} {{ if .Site.Params.services.enable }}
                     <li class="nav-item">
                         <a href="#" class="nav-link" data-nav-section="services">

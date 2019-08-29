@@ -31,6 +31,7 @@ copyright = "Everything is mine"
   brand = "BLACKSALT"
   home = "Home"
   techs = "Technologies"
+  prices = "App prices"
   services = "Services"
   about = "About"
   contact = "Contact"
@@ -152,6 +153,65 @@ copyright = "Everything is mine"
   name = "Service_Backend"
   description = "Our solutions have been used for years in mission critical environments of airlines, airports and air traffic control companies. Optimized for quality and reliability. In the past more than 10 years we have been developing Reporting, Master Data Management and high-available Data Hub systems for one of the greatest airlines in Europe via our partner company in Germany. The softwares we've delivered are still in use in the everyday operation of the airline."
   icons = [ "icon-wrench" ]
+
+# Prices section
+[languages.en.prices]
+  enable = true
+  title = "Application package prices"
+  description = ""
+
+[[languages.en.prices.package]]
+  name = "basic"
+  title = "Basic"
+  price = "400.000"
+  currency = "Ft"
+  cta = "Call us"
+  features = [
+    "Application development for Android and iOS",
+    "Native functions",
+    "Max. 5 functions or pages",
+    "Deploy application to Google Play and iTunes Connect stores",
+  ]
+
+[[languages.en.prices.package]]
+  highlighted = true
+  name = "standard"
+  title = "Standard"
+  price = "800.000"
+  currency = "Ft"
+  cta = "Call us"
+  features = [
+    "Application development for Android and iOS",
+    "Native functions",
+    "Max. 10 functions or pages",
+    "Deploy application to Google Play and iTunes Connect stores",
+    "1 hour consultancy"
+  ]
+
+[[languages.en.prices.package]]
+  name = "premium"
+  title = "Premium"
+  price = "1.600.000"
+  currency = "Ft"
+  cta = "Call us"
+  features = [
+    "Application development for Android and iOS",
+    "Native functions",
+    "Max. 20 functions or pages",
+    "Deploy application to Google Play and iTunes Connect stores",
+    "2 hours consultancy",
+    "Simple admin interface",
+    "Unique UX/UI design",
+    "Unique App icons and splash screens"
+  ]
+
+# [[languages.en.prices.package]]
+#   name = "enterprise"
+#   title = "Enterprise"
+#   price = "Call us"
+#   cta = "Call"
+#   features = []
+
 
 # About section
 [languages.en.about]
@@ -300,6 +360,7 @@ copyright = "Everything is mine"
   brand = "BLACKSALT"
   home  = "Startseite"
   techs = "Technologien"
+  prices = "App preise"
   services = "Leistungen"
   about = "Über Uns"
   contact = "Kontakt"
@@ -566,6 +627,7 @@ copyright = "Everything is mine"
   brand = "BLACKSALT"
   home = "Kezdőlap"
   techs = "Technológiák"
+  prices = "App árak"
   services = "Szolgáltatások"
   about = "Rólunk"
   contact = "Kapcsolat"
