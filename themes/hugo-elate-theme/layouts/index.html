@@ -14,6 +14,10 @@
 		
         {{ partial "intro.html" .}}
 		
+		{{ if .Site.Params.prices.enable }}
+			{{ partial "prices.html" .}}
+		{{ end }}
+		
 		{{ partial "techs.html" .}}
 
 		{{ if .Site.Params.work.enable }}
@@ -23,6 +27,7 @@
 		{{ if .Site.Params.testimonials.enable }}
         	{{ partial "testimonials.html" .}}
 		{{ end }}
+
 
 		{{ if .Site.Params.services.enable }}
         	{{ partial "services.html" .}}

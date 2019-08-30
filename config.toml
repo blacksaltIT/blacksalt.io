@@ -31,6 +31,7 @@ copyright = "Everything is mine"
   brand = "BLACKSALT"
   home = "Home"
   techs = "Technologies"
+  prices = "App prices"
   services = "Services"
   about = "About"
   contact = "Contact"
@@ -47,6 +48,9 @@ copyright = "Everything is mine"
 # Intro section
 # Available icons: http://simplelineicons.com/
 [languages.en.intro]
+  title = "Our company"
+  description = "Since 2008 we have been engaged in software design and development, and the experience gained from this has served as a successful basis for the development of a new service, mobile application development. We know that mobile devices are playing an increasingly important role, as well as application development for these devices."
+
 [[languages.en.intro.item]]
   title = "Web & Mobile development"
   url = "Service_Web"
@@ -152,6 +156,66 @@ copyright = "Everything is mine"
   name = "Service_Backend"
   description = "Our solutions have been used for years in mission critical environments of airlines, airports and air traffic control companies. Optimized for quality and reliability. In the past more than 10 years we have been developing Reporting, Master Data Management and high-available Data Hub systems for one of the greatest airlines in Europe via our partner company in Germany. The softwares we've delivered are still in use in the everyday operation of the airline."
   icons = [ "icon-wrench" ]
+
+# Prices section
+[languages.en.prices]
+  enable = true
+  title = "Application package prices"
+  # description = "Do you need mobile application for your business or even for yourself?"
+  background = "backgrounds/prices.png"
+
+[[languages.en.prices.package]]
+  name = "basic"
+  title = "Basic"
+  price = "400.000"
+  currency = "Ft"
+  cta = "Call us"
+  features = [
+    "Application development for Android and iOS",
+    "Native functions",
+    "Max. 5 functions or pages",
+    "Deploy application to Google Play and iTunes Connect stores",
+  ]
+
+[[languages.en.prices.package]]
+  highlighted = true
+  name = "standard"
+  title = "Standard"
+  price = "800.000"
+  currency = "Ft"
+  cta = "Call us"
+  features = [
+    "Application development for Android and iOS",
+    "Native functions",
+    "Max. 10 functions or pages",
+    "Deploy application to Google Play and iTunes Connect stores",
+    "1 hour consultancy"
+  ]
+
+[[languages.en.prices.package]]
+  name = "premium"
+  title = "Premium"
+  price = "1.600.000"
+  currency = "Ft"
+  cta = "Call us"
+  features = [
+    "Application development for Android and iOS",
+    "Native functions",
+    "Max. 20 functions or pages",
+    "Deploy application to Google Play and iTunes Connect stores",
+    "2 hours consultancy",
+    "Simple admin interface",
+    "Unique UX/UI design",
+    "Unique App icons and splash screens"
+  ]
+
+# [[languages.en.prices.package]]
+#   name = "enterprise"
+#   title = "Enterprise"
+#   price = "Call us"
+#   cta = "Call"
+#   features = []
+
 
 # About section
 [languages.en.about]
@@ -300,6 +364,7 @@ copyright = "Everything is mine"
   brand = "BLACKSALT"
   home  = "Startseite"
   techs = "Technologien"
+  prices = "App preise"
   services = "Leistungen"
   about = "Über Uns"
   contact = "Kontakt"
@@ -314,6 +379,9 @@ copyright = "Everything is mine"
   background = "backgrounds/header.png"
 
 [languages.de.intro]
+  title = "Unsere Firma"
+  description = "Seit 2008 beschäftigen wir uns mit Softwaredesign und -entwicklung und nutzen diese als erfolgreiche Basis für die Entwicklung eines neuen Dienstes, der Entwicklung mobiler Anwendungen. Wir wissen, dass mobile Geräte eine immer wichtigere Rolle spielen, ebenso wie die Anwendungsentwicklung für diese Geräte."
+
 [[languages.de.intro.item]]
   title = "Web- und Mobile-Entwicklung"
   url = "Service_Web"
@@ -419,6 +487,63 @@ copyright = "Everything is mine"
     name = "Service_Backend"
     description = "Unsere Lösungen werden seit Jahren in unternehmenskritischen Umgebungen von Fluggesellschaften, Flughäfen und in der Flugsicherung eingesetzt. In den letzten 10 Jahren haben wir Reporting, Master Data Management und hochverfügbare Data Hub Systeme für eine der größten Fluggesellschaften in Europa über unseren deutschen Partner entwickelt. Die übergebenen Softwares sind immer noch im täglichen Betrieb der Airline im Einsatz."
     icons = [ "icon-wrench" ]
+
+
+# Prices section
+[languages.de.prices]
+  enable = true
+  title = "Produktionspreise für mobile Apps"
+  # description = "Do you need mobile application for your business or even for yourself?"
+  background = "backgrounds/prices.png"
+
+[[languages.de.prices.package]]
+  title = "Basic"
+  price = "400.000"
+  currency = "Ft"
+  cta = "Rufen Sie uns an"
+  features = [
+    "Anwendungsentwicklung für Android und iOS",
+    "Native Funktionen",
+    "Max. 5 Funktionen oder Seiten",
+    "Stellen Sie die Anwendung in Google Play- und iTunes Connect-Stores bereit",
+  ]
+
+[[languages.de.prices.package]]
+  highlighted = true
+  title = "Standard"
+  price = "800.000"
+  currency = "Ft"
+  cta = "Rufen Sie uns an"
+  features = [
+    "Anwendungsentwicklung für Android und iOS",
+    "Native Funktionen",
+    "Max. 10 Funktionen oder Seiten",
+    "Stellen Sie die Anwendung in Google Play- und iTunes Connect-Stores bereit",
+    "1 Stunden Beratung"
+  ]
+
+[[languages.de.prices.package]]
+  title = "Premium"
+  price = "1.600.000"
+  currency = "Ft"
+  cta = "Rufen Sie uns an"
+  features = [
+    "Anwendungsentwicklung für Android und iOS",
+    "Native Funktionen",
+    "Max. 20 Funktionen oder Seiten",
+    "Stellen Sie die Anwendung in Google Play- und iTunes Connect-Stores bereit",
+    "2 Stunden Beratung",
+    "Einfaches Admin-Interface",
+    "Einzigartiges UX/UI Design",
+    "Einzigartige App-Symbole und Begrüßungsbildschirme"
+  ]
+
+# [[languages.de.prices.package]]
+#   name = "enterprise"
+#   title = "Enterprise"
+#   price = "Call us"
+#   cta = "Call"
+#   features = []
 
 # About section
 [languages.de.about]
@@ -566,6 +691,7 @@ copyright = "Everything is mine"
   brand = "BLACKSALT"
   home = "Kezdőlap"
   techs = "Technológiák"
+  prices = "App árak"
   services = "Szolgáltatások"
   about = "Rólunk"
   contact = "Kapcsolat"
@@ -582,6 +708,9 @@ copyright = "Everything is mine"
   background = "backgrounds/header.png"
 
 [languages.hu.intro]
+  title = "A mi cégünk"
+  description = "2008 óta foglalkozunk szoftverek tervezésével, valamint fejlesztéssel, az ebből szerzett tapasztalatok sikeres alapként szolgáltak egy új szolgáltatás, a mobil applikáció fejlesztés kiépítésében. Pontosan tudjuk, hogy egyre fontosabb szerepet töltenek be a mobil eszközök, és ezekre az eszközökre történő alkalmazásfejlesztés is."
+  
 [[languages.hu.intro.item]]
   title = "Web & Mobil Fejlesztés"
   url = "Service_Web"
@@ -687,7 +816,64 @@ copyright = "Everything is mine"
   name = "Service_Backend"
   description = "Megoldásainkat légitársaságok, repterek és légiforgalom irányító társaságok döntő fontosságú környezetekben használják évek óta. Az elmúlt több mint 10 évben németországi partnerünkön keresztül Európa egyik legnagyobb légitársaságának fejlesztettünk elsősorban reporting és törzsadatkezelő (Master Data Management), valamint nagy rendelkezésre állású Data Hub rendszereket. Az általunk elkészített szoftverek a mai napig szerves részét képezik a légitársaság mindennapi működésének."
   icons = [ "icon-wrench" ]
-  
+
+
+# Prices section
+[languages.hu.prices]
+  enable = true
+  title = "Applikáció készítési csomagajánlataink"
+  # description = "Do you need mobile application for your business or even for yourself?"
+  background = "backgrounds/prices.png"
+
+[[languages.hu.prices.package]]
+  title = "Basic"
+  price = "400.000"
+  currency = "Ft"
+  cta = "Hívjon"
+  features = [
+    "Applikáció fejlesztés Android és iOS rendszerekre",
+    "Natív funkciók",
+    "Maximum 10 funkció vagy oldal",
+    "Applikáció feltöltése a Google Play és iTunes Connect áruházakba",
+  ]
+
+[[languages.hu.prices.package]]
+  highlighted = true
+  title = "Standard"
+  price = "800.000"
+  currency = "Ft"
+  cta = "Hívjon"
+  features = [
+    "Applikáció fejlesztés Android és iOS rendszerekre",
+    "Natív funkciók",
+    "Maximum 10 funkció vagy oldal",
+    "Applikáció feltöltése a Google Play és iTunes Connect áruházakba",
+    "1 óra szakmai tanácsadás"
+  ]
+
+[[languages.hu.prices.package]]
+  title = "Prémium"
+  price = "1.600.000"
+  currency = "Ft"
+  cta = "Hívjon"
+  features = [
+    "Applikáció fejlesztés Android és iOS rendszerekre",
+    "Natív funkciók",
+    "Maximum 20 funkció vagy oldal",
+    "Applikáció feltöltése a Google Play és iTunes Connect áruházakba",
+    "2 óra szakmai tanácsadás",
+    "Egyszerű adminisztrációs felület",
+    "Egyedi UX/UI dizájn",
+    "Egyedi App ikonok és splash screen-ek"
+  ]
+
+# [[languages.hu.prices.package]]
+#   name = "enterprise"
+#   title = "Enterprise"
+#   price = "Call us"
+#   cta = "Call"
+#   features = []
+
 # About section
 [languages.hu.about]
   enable = true

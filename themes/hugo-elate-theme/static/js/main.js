@@ -297,6 +297,49 @@
 		}
 	};
 
+	var pricesAnimate = function() {
+		var prices = $('#fh5co-prices');
+		if ( prices.length > 0 ) {	
+
+			prices.waypoint( function( direction ) {
+										
+				if( direction === 'down' && !$(this.element).hasClass('animated') ) {
+
+					var sec = prices.find('.to-animate').length,
+						sec = parseInt((sec * 100) + 200);
+
+					setTimeout(function() {
+						prices.find('.to-animate').each(function( k ) {
+							var el = $(this);
+							
+							setTimeout ( function () {
+								el.addClass('fadeInUp animated');
+							},  k * 150, 'easeInOutExpo' );
+							
+						});
+					}, 100);
+
+					setTimeout(function() {
+						prices.find('.to-animate-2').each(function( k ) {
+							var el = $(this);
+							
+							setTimeout ( function () {
+								el.addClass('bounceIn animated');
+							},  k * 150, 'easeInOutExpo' );
+							
+						});
+					}, sec);
+
+
+					
+					$(this.element).addClass('animated');
+						
+				}
+			} , { offset: '80%' } );
+
+		}
+	};
+
 	var servicesAnimate = function() {
 		var services = $('#fh5co-services');
 		if ( services.length > 0 ) {	
@@ -480,6 +523,7 @@
 		introAnimate();
 		workAnimate();
 		testimonialAnimate();
+		pricesAnimate();
 		servicesAnimate();
 		aboutAnimate();
 		countersAnimate();

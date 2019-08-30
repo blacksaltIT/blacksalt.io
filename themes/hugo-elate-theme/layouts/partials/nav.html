@@ -28,7 +28,13 @@
                         </a>
                     </li>
 
-                    {{ if .Site.Params.techs.enable }}
+                    {{ if .Site.Params.prices.enable }}
+                    <li class="nav-item">
+                        <a href="#" class="nav-link" data-nav-section="prices">
+                            <span>{{ with .Site.Params.navigation.prices }}{{ . | markdownify }}{{ end }}</span>
+                        </a>
+                    </li>
+                    {{ end }} {{ if .Site.Params.techs.enable }}
                     <li class="nav-item">
                         <a href="#" class="nav-link" data-nav-section="techs">
                             <span>{{ with .Site.Params.navigation.techs }}{{ . | markdownify }}{{ end }}</span>
