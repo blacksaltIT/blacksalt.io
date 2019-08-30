@@ -3,7 +3,7 @@
 
         <div class="row equal mx-auto">
             {{ range .Site.Params.intro.item }}
-                <div class="col-lg-4 col-md-9 my-2 mx-auto">
+                <div class="item col-lg-4 col-md-9 my-2 mx-auto">
                     <a href="#{{ .url }}" style="height: 100%; width: 100%;" class="fh5co-block to-animate js-scroll-trigger">
                         <!-- <div class="overlay-darker"></div>
                         <div class="overlay"></div> -->
@@ -21,5 +21,10 @@
             {{ end }}
         </div>
 
+        <div class="col-md-12 section-heading">
+            <h2 class="text-center mt-5 pt-5">{{ .Site.Params.intro.title }}</h2>
+            <h3 class="description">{{ .Site.Params.intro.description }}</h3>
+        </div>
+        
     </div>
 </section>

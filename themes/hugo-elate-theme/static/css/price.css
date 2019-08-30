@@ -75,6 +75,15 @@
 	background-color: #074DFD;
 	color: #fff;
 } 
+
+#generic_price_table .generic_content {
+	-webkit-transition: all .2s ease-in-out;
+			transition: all .2s ease-in-out;
+}
+#generic_price_table .generic_content:hover {
+-webkit-transform: scale(1.04);
+		transform: scale(1.04);
+}
 #generic_price_table{
 	margin: 50px 0 50px 0;
     /* font-family: 'Raleway', sans-serif; */

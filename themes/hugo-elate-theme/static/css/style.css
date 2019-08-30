@@ -461,6 +461,9 @@ h1, h2, h3, h4, h5, h6 {
   z-index: 11;
   padding-bottom: 3em;
 }
+#fh5co-intro .section-heading h2:after {
+  background: #999999;
+}
 @media screen and (max-width: 768px) {
   #fh5co-intro {
     padding-bottom: 3em;
@@ -502,6 +505,21 @@ h1, h2, h3, h4, h5, h6 {
     width: 100%;
   }
 }
+#fh5co-intro .description {
+  color: #444;
+  font-weight: 300;
+  line-height: 1.6;
+}
+
+#fh5co-intro .item {
+  -webkit-transition: all .2s ease-in-out;
+          transition: all .2s ease-in-out;
+}
+#fh5co-intro .item:hover {
+  -webkit-transform: scale(1.02);
+          transform: scale(1.02);
+}
+
 #fh5co-intro .fh5co-block {
   /* z-index: 8;
   opacity: 1; */
@@ -662,7 +680,7 @@ h1, h2, h3, h4, h5, h6 {
   -webkit-transform: rotate(-1.5deg);
   -o-transform: rotate(-1.5deg);
   -moz-transform: rotate(-1.5deg);
-  background-color: #737373;
+  background-color: #fff;
   content: "";
   z-index: 3;
   display: inline-block;
@@ -731,7 +749,7 @@ h1, h2, h3, h4, h5, h6 {
   -webkit-transform: rotate(-1.5deg);
   -o-transform: rotate(-1.5deg);
   -moz-transform: rotate(-1.5deg);
-  background-color: #737373;
+  background-color: #fff;
   content: "";
   z-index: 3;
   display: inline-block;
@@ -772,7 +790,7 @@ h1, h2, h3, h4, h5, h6 {
   color: #fff;
 } */
 #fh5co-prices .section-heading h2:after {
-  background: #fff;
+  background: rgba(255, 255, 255, 0.3);
 }
 
 #fh5co-counters {
