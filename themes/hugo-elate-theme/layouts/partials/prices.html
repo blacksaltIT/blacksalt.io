@@ -12,6 +12,8 @@
                 </div>
             </div>
             <div class="row">
+                {{ $lang := .Site.LanguageCode }}
+                {{ $cta := .Site.Params.prices.cta }}
                 {{ range .Site.Params.prices.package }}
                 <div class="item col-md-4 to-animate">
                 
@@ -35,10 +37,15 @@
                             <!--//HEAD CONTENT END-->
                             
                             <!--PRICE START-->
-                            <div class="generic_price_tag clearfix">	
+                            <div class="generic_price_tag clearfix">
                                 <span class="price">
+                                    {{ if eq $lang "hu" }}
                                     <span class="currency">{{ .price | markdownify }}</span>
                                     <span class="sign">{{ .currency | markdownify }}</span>
+                                    {{ else }}
+                                    <span class="sign">{{ .currency | markdownify }}</span>
+                                    <span class="currency">{{ .price | markdownify }}</span>
+                                    {{ end }}
                                 </span>
                             </div>
 
@@ -57,7 +64,7 @@
                         
                         <!--BUTTON START-->
                         <div class="generic_price_btn clearfix">
-                            <a class="" href="">{{ .cta }}</a>
+                            {{ $cta | safeHTML }}
                         </div>
                         <!--//BUTTON END-->
                         

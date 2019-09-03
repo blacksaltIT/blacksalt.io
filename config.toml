@@ -17,6 +17,7 @@ copyright = "Everything is mine"
 
 [languages]
 [languages.en]
+  languageCode = "en"
   title = "The missing pinch of software engineering"
   weight = 1
 
@@ -163,13 +164,13 @@ copyright = "Everything is mine"
   title = "Application package prices"
   # description = "Do you need mobile application for your business or even for yourself?"
   background = "backgrounds/prices.png"
+  cta = '<a href="tel: +36 1 490 0940" target="_blank">Call us</a>'
 
 [[languages.en.prices.package]]
   name = "basic"
   title = "Basic"
-  price = "400.000"
-  currency = "Ft"
-  cta = "Call us"
+  price = "1.690"
+  currency = "$"
   features = [
     "Application development for Android and iOS",
     "Native functions",
@@ -181,9 +182,8 @@ copyright = "Everything is mine"
   highlighted = true
   name = "standard"
   title = "Standard"
-  price = "800.000"
-  currency = "Ft"
-  cta = "Call us"
+  price = "2.690"
+  currency = "FROM $"
   features = [
     "Application development for Android and iOS",
     "Native functions",
@@ -195,9 +195,8 @@ copyright = "Everything is mine"
 [[languages.en.prices.package]]
   name = "premium"
   title = "Premium"
-  price = "1.600.000"
-  currency = "Ft"
-  cta = "Call us"
+  price = "Custom Price"
+  currency = ""
   features = [
     "Application development for Android and iOS",
     "Native functions",
@@ -350,6 +349,7 @@ copyright = "Everything is mine"
 #######################################################################
 
 [languages.de]
+  languageCode = "de"
   title = "Die fehlende Prise Software-Engineering"
   weight = 2
 
@@ -495,12 +495,12 @@ copyright = "Everything is mine"
   title = "Produktionspreise für mobile Apps"
   # description = "Do you need mobile application for your business or even for yourself?"
   background = "backgrounds/prices.png"
+  cta = '<a href="tel: +36 1 490 0940" target="_blank">Rufen Sie uns an</a>'
 
 [[languages.de.prices.package]]
   title = "Basic"
-  price = "400.000"
-  currency = "Ft"
-  cta = "Rufen Sie uns an"
+  price = "1.490"
+  currency = "€"
   features = [
     "Anwendungsentwicklung für Android und iOS",
     "Native Funktionen",
@@ -511,9 +511,8 @@ copyright = "Everything is mine"
 [[languages.de.prices.package]]
   highlighted = true
   title = "Standard"
-  price = "800.000"
-  currency = "Ft"
-  cta = "Rufen Sie uns an"
+  price = "2.490"
+  currency = "FROM €"
   features = [
     "Anwendungsentwicklung für Android und iOS",
     "Native Funktionen",
@@ -524,9 +523,8 @@ copyright = "Everything is mine"
 
 [[languages.de.prices.package]]
   title = "Premium"
-  price = "1.600.000"
-  currency = "Ft"
-  cta = "Rufen Sie uns an"
+  price = "Kundenspezifische Preis"
+  currency = ""
   features = [
     "Anwendungsentwicklung für Android und iOS",
     "Native Funktionen",
@@ -677,6 +675,7 @@ copyright = "Everything is mine"
 #######################################################################
 
 [languages.hu]
+  languageCode = "hu"
   title = "Egy csipetnyi hiányzó szoftver&shy;fejlesztés"
   weight = 3
 
@@ -824,12 +823,12 @@ copyright = "Everything is mine"
   title = "Applikáció készítési csomagajánlataink"
   # description = "Do you need mobile application for your business or even for yourself?"
   background = "backgrounds/prices.png"
+  cta = '<a href="tel: +36 1 490 0940" target="_blank">Hívjon</a>'
 
 [[languages.hu.prices.package]]
   title = "Basic"
-  price = "400.000"
+  price = "490.000"
   currency = "Ft"
-  cta = "Hívjon"
   features = [
     "Applikáció fejlesztés Android és iOS rendszerekre",
     "Natív funkciók",
@@ -840,9 +839,8 @@ copyright = "Everything is mine"
 [[languages.hu.prices.package]]
   highlighted = true
   title = "Standard"
-  price = "800.000"
-  currency = "Ft"
-  cta = "Hívjon"
+  price = "890.000"
+  currency = "Ft - TÓL"
   features = [
     "Applikáció fejlesztés Android és iOS rendszerekre",
     "Natív funkciók",
@@ -853,9 +851,8 @@ copyright = "Everything is mine"
 
 [[languages.hu.prices.package]]
   title = "Prémium"
-  price = "1.600.000"
-  currency = "Ft"
-  cta = "Hívjon"
+  price = "Egyedi ár"
+  currency = ""
   features = [
     "Applikáció fejlesztés Android és iOS rendszerekre",
     "Natív funkciók",
